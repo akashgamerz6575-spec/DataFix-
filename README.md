@@ -25,50 +25,60 @@ DataFix is built by two human developers:
    - **Auto-Apply**: Format-only and lossless deduplications that pass all invariants.
    - **Needs Approval**: Ambiguous transformations, value substitutions, or higher-risk actions requiring explicit human confirmation.
    - **Refused**: Changes rejected by DataFix because of invariant violations or insufficient evidence to prevent hallucinated data.
-4. **Zero Fabrication Guarantee**: Missing values are never guessed without verifiable domain context, foreign keys, or postal reference tables.
-5. **Cryptographic Audit Trail**: Every applied, skipped, or rejected operation is sequenced, timestamped, and provable via SHA-256 integrity verification.
+4. **Zero-Fabrication Design Principle**: Missing values should never be fabricated or imputed without verifiable domain context, foreign keys, or reference tables.
+5. **Cryptographic Audit Trail Principle**: Architecture designed so every applied, skipped, or rejected operation can be sequenced, logged, and verified via closed-loop replay and SHA-256 integrity hashing once backend verification is implemented.
 
 ---
 
 ## 3. Current Implementation Status
 
-### Implemented (Phase 1 & Phase 1.1)
+> **Important**: Only the service health check and CSV profiling endpoints are currently live in the backend. All Repair Studio, Proof, History, and Export capabilities are implemented as frontend screens and client-side prototypes backed by `RunContext` state and development fixtures (`fixtures.ts`). Genuine backend execution for these stages is planned for subsequent milestones.
 
-- **FastAPI Backend (`backend/`):**
-  - `GET /health`: Service health endpoint returning status, service name, and runtime environment.
-  - `POST /api/v1/datasets/profile`: Deterministic Pandas CSV profiling returning dataset row/column counts, total cells, missing cells, duplicate rows, and per-column data types and distinct counts.
-  - Multi-origin CORS support and file size validation (20 MB default limit).
-- **React Frontend (`frontend/`):**
-  - **Design System**: Comprehensive design tokens (`tokens.css`) for typography, spacing, semantic colors, and surfaces.
-  - **Application Shell**: Shared shell with `TopBar`, `StageRail` (6-stage workflow navigation), and `SafetyRibbon` featuring a visual proportional distribution bar.
-  - **Intake Screen (`IntakePage.tsx`)**: Drag-and-drop CSV upload, demo dataset one-click loader, and live waking-server cold-start detection.
-  - **Overview Screen (`OverviewPage.tsx`)**: Dataset health KPIs, column profiling grid, and detected issues summary.
-  - **Repair Studio (`StudioPage.tsx`)**: Three-panel layout with a three-lane proposal queue (Auto-apply, Needs approval, Refused), detailed proposal inspector, refusal evidence gap cards, and side-by-side cell diff comparisons.
-  - **Proof Screen (`ProofPage.tsx`)**: Deterministic verification summary, invariant status checks, and SHA-256 cryptographic seal generator.
-  - **History Screen (`HistoryPage.tsx`)**: Chronological audit trail with sequencer, decision origins, affected cell metrics, and operation rollback simulation.
-  - **Export Screen (`ExportPage.tsx`)**: Clean data export preview and compliance audit receipt download.
-  - **State & Routing**: `RunContext` with `localStorage` persistence, URL-synchronized routing, and seamless live API vs development fixture toggling.
+### Live Backend Functionality (Currently Working)
 
-### Planned Functionality (Phase 2 & Future Milestones)
+- `GET /health`: Service health endpoint returning service status, name, and environment.
+- `POST /api/v1/datasets/profile`: Deterministic Pandas CSV profiling returning dataset row/column counts, total cells, missing cells, duplicate rows, and per-column data types and distinct counts.
+- Multi-origin CORS support and file size limit enforcement (20 MB default limit).
 
-- **Backend Repair Plan Endpoints (GAPs 1–10 Contract):**
-  - `POST /api/v1/runs/{id}/proposals`: Structured repair proposal generation via rules and heuristics.
-  - `POST /api/v1/runs/{id}/simulate`: Deterministic repair simulation, cell-level diff generation, and invariant verification.
-  - `POST /api/v1/runs/{id}/apply` & `POST /api/v1/runs/{id}/undo`: Deterministic state application and rollbacks.
-  - `POST /api/v1/runs/{id}/verify`: Cryptographic verification and tamper-evident audit receipt.
-  - `GET /api/v1/runs/{id}/export`: CSV/Excel export of the repaired dataset.
-  - Full API specifications for these endpoints are defined in [docs/FRONTEND_BACKEND_CONTRACT.md](docs/FRONTEND_BACKEND_CONTRACT.md).
-- **Model Integration & Persistence:**
-  - Server-side Groq LLM integration with structured JSON schema outputs (all model calls routed strictly through the backend).
+### Implemented Frontend Screens (UI & Client Architecture)
+
+- **Design System**: Comprehensive design tokens (`tokens.css`) for typography, spacing, semantic colors, and surfaces.
+- **Application Shell**: Shared shell with `TopBar`, `StageRail` (6-stage workflow navigation), and `SafetyRibbon` featuring a visual proportional distribution bar.
+- **Intake Screen (`IntakePage.tsx`)**: Drag-and-drop CSV upload connecting to live `POST /api/v1/datasets/profile`, synthetic benchmark dataset loader, and live waking-server cold-start detection.
+- **Overview Screen (`OverviewPage.tsx`)**: Renders real profiling results from live backend upload (or demo fixtures), displaying dataset KPIs, column profiling table, and detected issues summary.
+- **Repair Studio Screen (`StudioPage.tsx`)**: Interactive frontend layout with three-lane proposal queue (Auto-apply, Needs approval, Refused), proposal dossier inspector, refusal explanation cards, and side-by-side cell diffs *(client-side prototype)*.
+- **Proof Screen (`ProofPage.tsx`)**: Verification interface displaying invariant status checks and SHA-256 cryptographic seal preview *(client-side prototype)*.
+- **History Screen (`HistoryPage.tsx`)**: Chronological audit trail display with sequenced operations, decision origins, and simulated rollback interaction *(client-side prototype)*.
+- **Export Screen (`ExportPage.tsx`)**: Cleaned dataset preview and audit receipt download interface *(client-side prototype)*.
+
+### Planned Backend Functionality (GAPs 1–10 API Contract)
+
+The following backend endpoints are formally specified in [docs/FRONTEND_BACKEND_CONTRACT.md](docs/FRONTEND_BACKEND_CONTRACT.md) and planned for backend implementation:
+
+| Endpoint | Method | Status | Required For |
+| :--- | :--- | :--- | :--- |
+| `/api/v1/runs` | `POST` | **PLANNED** | Create a persistent run from uploaded CSV/XLSX |
+| `/api/v1/runs/{id}/analyze` | `POST` | **PLANNED** | Run detection, hypothesis generation, and repair simulation |
+| `/api/v1/runs/{id}/proposals/{proposal_id}/diff` | `GET` | **PLANNED** | Full diff and merge group pagination (GAP-3) |
+| `/api/v1/runs/{id}/decisions` | `POST` | **PLANNED** | Record user approval / rejection on proposals |
+| `/api/v1/runs/{id}/apply` | `POST` | **PLANNED** | Atomically apply approved and auto-apply repairs |
+| `/api/v1/runs/{id}/verify` | `POST` | **PLANNED** | Closed-loop verification replay against untouched original |
+| `/api/v1/runs/{id}/operations` | `GET` | **PLANNED** | Retrieve ordered history of applied operations |
+| `/api/v1/runs/{id}/undo/{op_id}` | `POST` | **PLANNED** | Remove an operation from the log and replay state |
+| `/api/v1/runs/{id}/export` | `GET` | **PLANNED** | Download zip bundle with cleaned CSV, report, log, recipe |
+| `/api/v1/policy` | `GET` | **PLANNED** | Inspect active gate rules, invariants, and thresholds |
+
+- **Planned Model Integration & Persistence**:
+  - Server-side Groq LLM integration with structured JSON schema outputs (strictly called via backend; never from the browser).
   - Supabase persistence for runs, datasets, and immutable audit logs.
-  - Excel (`.xlsx`) and JSON data format parsers.
+  - Multi-table, XLSX, and JSON file format parsers.
 
 ---
 
 ## 4. Technology Baseline
 
 - **Operating System:** Windows 10/11 (cross-platform compatible)
-- **Node.js:** Node.js 20+ LTS
+- **Node.js:** Node.js 20+ (Verified on Node.js v24.13.0)
 - **Python:** Python 3.13.x (64-bit)
 - **Frontend Stack:** React 19 + TypeScript + Vite
 - **Backend Stack:** FastAPI + Uvicorn + Pandas + Pydantic v2
@@ -139,7 +149,7 @@ Open the local application URL (normally [http://localhost:5173](http://localhos
    - Column count: 6
    - Missing cells: 3
    - Duplicate rows: 1
-4. Inspect the **Repair Studio** to explore the safety gate, proposal inspector, and refusal explanations.
+4. Inspect the **Repair Studio**, **Proof**, **History**, and **Export** screens to explore the frontend safety gate workflows, proposal inspector, and refusal explanations (currently driven by client-side state until backend endpoints are implemented).
 
 ---
 
