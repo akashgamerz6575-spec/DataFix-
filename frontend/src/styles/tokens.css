@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #10B981;
+  --color-brand-dark: #0B0F19;
+  --color-brand-surface: #F8FAFC;
+
+  /* Semantic Gate Decision: Auto-apply (Emerald) */
+  --color-auto-50: #ECFDF5;
+  --color-auto-100: #D1FAE5;
+  --color-auto-500: #10B981;
+  --color-auto-600: #059669;
+  --color-auto-700: #047857;
+  --color-auto-900: #064E3B;
+
+  /* Semantic Gate Decision: Needs Approval (Amber) */
+  --color-approval-50: #FFFBEB;
+  --color-approval-100: #FEF3C7;
+  --color-approval-500: #F59E0B;
+  --color-approval-600: #D97706;
+  --color-approval-700: #B45309;
+  --color-approval-900: #78350F;
+
+  /* Semantic Gate Decision: Refused / Guardian (Indigo / Violet) */
+  --color-guard-50: #EEF2FF;
+  --color-guard-100: #E0E7FF;
+  --color-guard-500: #6366F1;
+  --color-guard-600: #4F46E5;
+  --color-guard-700: #6D28D9;
+  --color-guard-800: #4338CA;
+  --color-guard-900: #312E81;
+
+  /* System Failure Only (Red) - Never for DataFix decisions */
+  --color-system-err-50: #FEF2F2;
+  --color-system-err-100: #FEE2E2;
+  --color-system-err-500: #EF4444;
+  --color-system-err-600: #DC2626;
+  --color-system-err-900: #7F1D1D;
+
+  /* Diff Presentation: Neutral grey before, Sky blue after */
+  --color-diff-before: #64748B;
+  --color-diff-before-bg: #F1F5F9;
+  --color-diff-after: #0284C7;
+  --color-diff-after-bg: #E0F2FE;
+
+  /* Font Families */
+  --font-sans: "DM Sans", "Manrope", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+}
+
+:root {
+  --app-shell-bg: #0B0F19;
+  --app-content-bg: #F8FAFC;
+  --app-card-bg: #FFFFFF;
+  --app-border: #E2E8F0;
+  --app-border-hover: #CBD5E1;
+}
+
+/* Hatch texture for refused guardian card headers */
+.guard-hatch-pattern {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(99, 102, 241, 0.04),
+    rgba(99, 102, 241, 0.04) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}

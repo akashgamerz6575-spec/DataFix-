@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: datafix-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.17
+      - key: APP_ENV
+        value: production
+      - key: CORS_ORIGINS
+        sync: false
+      - key: MAX_UPLOAD_BYTES
+        value: "20000000"
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        sync: false

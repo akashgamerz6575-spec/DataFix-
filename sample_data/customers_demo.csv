@@ -1,0 +1,6 @@
+customer_id,full_name,email,city,joined_on,age
+C001,Asha Rao,asha@example.test,Bengaluru,2026-02-10,24
+C002,Rahul Sen,rahul@example.test,,2026-03-14,29
+C003,Meera Das,meera@example.test,Mysuru,2026-04-02,
+C003,Meera Das,meera@example.test,Mysuru,2026-04-02,
+C005,John Mathew,john.example.test,Bengaluru,not-a-date,34
