@@ -77,7 +77,6 @@ export const DEMO_RUN_FIXTURE: RunState = {
           { row_id: 5, column: 'customer_id', before: 'C003', after: '∅ removed', was_valid: true },
         ],
       },
-      user_action: 'approved',
     },
     {
       id: 'prop_appr_1',

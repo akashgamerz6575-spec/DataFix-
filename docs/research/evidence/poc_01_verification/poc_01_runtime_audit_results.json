@@ -1,0 +1,164 @@
+{
+  "initial_load": {
+    "title": "DataFix \u2014 Eight-Stage Guided Product Demonstration (Motion POC 01)",
+    "heading": "Detect \u2192 Diagnose \u2192 Propose \u2192 Simulate \u2192 Gate \u2192 Apply \u2192 Verify",
+    "success": true
+  },
+  "desktop_pin": {
+    "hasPinSpacer": true,
+    "hasProductWindow": true,
+    "hasPinWrapper": false,
+    "pinSpacerStyle": "order: 0; place-self: auto; grid-area: auto; z-index: auto; float: none; flex-shrink: 1; display: block; margin: 0px; inset: auto; position: relative; flex-basis: auto; overflow: visible; box-sizing: border-box; width: 765px; height: 3021px; padding: 0px 0px 2471px;"
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "info": {
+        "badgeText": "Stage 1 / 8 \u00b7 Ingest",
+        "activeTitle": null,
+        "provenanceText": "INTERACTIVE DEMONSTRATION \u2014 SAMPLE DATA"
+      },
+      "file": "stage_01.png"
+    },
+    {
+      "stage": 2,
+      "info": {
+        "badgeText": "Stage 2 / 8 \u00b7 Detect",
+        "activeTitle": null,
+        "provenanceText": "INTERACTIVE DEMONSTRATION \u2014 SAMPLE DATA"
+      },
+      "file": "stage_02.png"
+    },
+    {
+      "stage": 3,
+      "info": {
+        "badgeText": "Stage 3 / 8 \u00b7 Diagnose",
+        "activeTitle": null,
+        "provenanceText": "INTERACTIVE DEMONSTRATION \u2014 SAMPLE DATA"
+      },
+      "file": "stage_03.png"
+    },
+    {
+      "stage": 4,
+      "info": {
+        "badgeText": "Stage 4 / 8 \u00b7 Propose",
+        "activeTitle": null,
+        "provenanceText": "INTERACTIVE DEMONSTRATION \u2014 SAMPLE DATA"
+      },
+      "file": "stage_04.png"
+    },
+    {
+      "stage": 5,
+      "info": {
+        "badgeText": "Stage 5 / 8 \u00b7 Gate",
+        "activeTitle": null,
+        "provenanceText": "INTERACTIVE DEMONSTRATION \u2014 SAMPLE DATA"
+      },
+      "file": "stage_05.png"
+    },
+    {
+      "stage": 6,
+      "info": {
+        "badgeText": "Stage 6 / 8 \u00b7 Simulate",
+        "activeTitle": null,
+        "provenanceText": "INTERACTIVE DEMONSTRATION \u2014 SAMPLE DATA"
+      },
+      "file": "stage_06.png"
+    },
+    {
+      "stage": 7,
+      "info": {
+        "badgeText": "Stage 7 / 8 \u00b7 Checks",
+        "activeTitle": null,
+        "provenanceText": "INTERACTIVE DEMONSTRATION \u2014 SAMPLE DATA"
+      },
+      "file": "stage_07.png"
+    },
+    {
+      "stage": 8,
+      "info": {
+        "badgeText": "Stage 8 / 8 \u00b7 Proof",
+        "activeTitle": null,
+        "provenanceText": "INTERACTIVE DEMONSTRATION \u2014 SAMPLE DATA"
+      },
+      "file": "stage_08.png"
+    }
+  ],
+  "reverse_scroll": [
+    {
+      "targetStage": 6,
+      "observedBadge": "Stage 6 / 8 \u00b7 Simulate",
+      "success": true
+    },
+    {
+      "targetStage": 4,
+      "observedBadge": "Stage 4 / 8 \u00b7 Propose",
+      "success": true
+    },
+    {
+      "targetStage": 2,
+      "observedBadge": "Stage 2 / 8 \u00b7 Detect",
+      "success": true
+    },
+    {
+      "targetStage": 1,
+      "observedBadge": "Stage 1 / 8 \u00b7 Ingest",
+      "success": true
+    }
+  ],
+  "natural_release": {
+    "outroVisible": true,
+    "outroTop": 551.671875,
+    "scrollY": 3170,
+    "scrollHeight": 3974
+  },
+  "tablet_768px": {
+    "hasStepper": true,
+    "tabCount": 0,
+    "tabLabels": [],
+    "pinSpacerPresent": false
+  },
+  "tablet_tab_click": {
+    "click": {
+      "clicked": false
+    },
+    "badge": "Stage 5 / 8 \u00b7 Gate",
+    "success": false
+  },
+  "mobile_375px": {
+    "windowWidth": 345,
+    "stepperScrollable": false,
+    "bodyWidth": 375
+  },
+  "desktop_restore": {
+    "pinSpacerPresent": true,
+    "stepperDisplay": "none"
+  },
+  "reduced_motion": {
+    "mqMatches": true,
+    "badge": "Stage 3 / 8 \u00b7 Diagnose"
+  },
+  "console_logs": [
+    {
+      "type": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "source": "network",
+      "level": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "timestamp": 1795078626854.628,
+      "url": "http://127.0.0.1:5174/favicon.ico",
+      "networkRequestId": "28528.80"
+    }
+  ],
+  "js_errors": []
+}

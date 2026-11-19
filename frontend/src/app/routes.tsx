@@ -2,6 +2,9 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 
 export type RoutePath =
   | '/'
+  | '/walkthrough'
+  | '/app'
+  | '/intake'
   | `/runs/${string}/overview`
   | `/runs/${string}/studio`
   | `/runs/${string}/proof`
@@ -33,6 +36,28 @@ function parsePath(pathname: string): RouteState {
     });
   }
 
+  // 1. First page: The Product Tour / Walkthrough is the default front page
+  if (
+    cleanPath === '' ||
+    cleanPath === '/' ||
+    cleanPath === '/walkthrough' ||
+    cleanPath.startsWith('/walkthrough')
+  ) {
+    return {
+      path: '/walkthrough',
+      params,
+    };
+  }
+
+  // 2. Operational App Workspace (Intake)
+  if (cleanPath === '/app' || cleanPath === '/intake') {
+    return {
+      path: '/app',
+      params,
+    };
+  }
+
+  // 3. Operational Runs
   const runMatch = cleanPath.match(/^\/runs\/([^/]+)\/(overview|studio|proof|history|export)$/);
   if (runMatch) {
     return {
@@ -44,7 +69,7 @@ function parsePath(pathname: string): RouteState {
   }
 
   return {
-    path: cleanPath || '/',
+    path: cleanPath || '/walkthrough',
     params,
   };
 }

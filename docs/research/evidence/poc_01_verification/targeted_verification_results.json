@@ -1,0 +1,24 @@
+{
+  "approval_propagation": {
+    "metricNums": []
+  },
+  "reset_propagation": {},
+  "tablet_stepper": {
+    "count": 8,
+    "labels": [
+      "01Ingest",
+      "02Detect",
+      "03Diagnose",
+      "04Propose",
+      "05Gate",
+      "06Simulate",
+      "07Checks",
+      "08Proof"
+    ],
+    "activeTab": "01Ingest"
+  },
+  "tab4_click": {
+    "badge": "Stage 4 / 8 \u00b7 Propose",
+    "activeTab": "04Propose"
+  }
+}

@@ -1,0 +1,1266 @@
+{
+  "soda": [
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 158,
+      "text": "Data Quality is Solved."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 157,
+      "text": "See what we launched"
+    },
+    {
+      "tag": "h1",
+      "className": "framer-text",
+      "top": 212,
+      "text": "Stop data incidents before they hit production"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 400,
+      "text": "Soda catches, explains, and resolves data quality issues the moment they appear."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 477,
+      "text": "Book a demo"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 692,
+      "text": "Trusted by"
+    },
+    {
+      "tag": "h2",
+      "className": "framer-text",
+      "top": 1395,
+      "text": "Detection to resolution All automated with AI"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 1528,
+      "text": "We meet users where they are. Engineers run it as code. Business runs it in an interface. One shared workflow. Powered by AI."
+    },
+    {
+      "tag": "h3",
+      "className": "framer-text",
+      "top": 1826,
+      "text": "Business and Engineers in one workflow"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 1866,
+      "text": "Unite business and engineering with collaborative, AI-powered data contracts."
+    },
+    {
+      "tag": "h3",
+      "className": "framer-text",
+      "top": 1826,
+      "text": "Fix bad data at source"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 1866,
+      "text": "Automatically isolate, manage, and fix bad data. At the source, in your environment."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 1992,
+      "text": "Missing"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 2084,
+      "text": "Duplicated"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 2176,
+      "text": "Invalid"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 1992,
+      "text": "Customer records"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 2084,
+      "text": "Sales records"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 2176,
+      "text": "Transactional records"
+    },
+    {
+      "tag": "h3",
+      "className": "framer-text",
+      "top": 2313,
+      "text": "Best AI for data quality"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 2353,
+      "text": "We don\u2019t bolt AI on top. We\u2019ve built the most advanced AI for data quality; it's faster, more accurate, and battle-tested at scale. Our frontier research has been published in NeurIPs, JAIR, and ACML."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 2550,
+      "text": "Learn more"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 2562,
+      "text": "About Soda AI"
+    },
+    {
+      "tag": "h1",
+      "className": "framer-text",
+      "top": 2561,
+      "text": "Introducing Soda 4.0"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 2661,
+      "text": "Unite Business, Engineering and Governance. Automate with AI. Lock trust at the source."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 2980,
+      "text": "Soda AI"
+    },
+    {
+      "tag": "h2",
+      "className": "framer-text",
+      "top": 3015,
+      "text": "Advanced AI for data quality faster and accurate"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 3227,
+      "text": "Metrics Monitoring"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 3254,
+      "text": "Our algorithms beat Facebook Prophet with 70% fewer false positives and scale to 1B rows in just 64 seconds."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 3227,
+      "text": "AI Automations"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 3254,
+      "text": "From writing checks in plain English to an AI co-pilot that creates full data contracts with one click."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 3227,
+      "text": "Record-Level Anomaly Detection"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 3281,
+      "text": "Detect anomalies at the row level with high precision."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 3227,
+      "text": "Real AI. Peer-reviewed research."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 3281,
+      "text": "Our research is published in NeurIPS, JAIR and ACML."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 3382,
+      "text": "Book a demo"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 3381,
+      "text": "Learn more"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 3393,
+      "text": "About Soda AI"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 4056,
+      "text": "Data Observability"
+    },
+    {
+      "tag": "h2",
+      "className": "framer-text",
+      "top": 4090,
+      "text": "Monitor Thousands of Tables In Seconds"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 4303,
+      "text": "Interactive visualizations"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 4330,
+      "text": "Oversee your organization\u2019s entire data, or drill down to a single anomaly."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 4303,
+      "text": "Smart thresholds"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 4330,
+      "text": "Leverage intelligent and adaptive thresholds, or define your own for precise, fine-grained results."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 4303,
+      "text": "Improve AI with feedback"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 4330,
+      "text": "Flag results as expected or anomalous. Each piece of feedback helps the algorithm learn, refine its predictions, and adapt over time."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 4303,
+      "text": "Start Today Look One Year Back"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 4357,
+      "text": "With built-in backfilling and backtesting, Soda instantly analyzes historical data to reveal patterns and trends."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 4485,
+      "text": "Book a demo"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 4484,
+      "text": "Learn more"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 4496,
+      "text": "About Data Obesrvability"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 5159,
+      "text": "Data Contracts"
+    },
+    {
+      "tag": "h2",
+      "className": "framer-text",
+      "top": 5193,
+      "text": "Business & Engineering in a Shared Workflow"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 5406,
+      "text": "Collaborative Workflows"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 5433,
+      "text": "Engineers work in Git. Business users in the UI. Every change is versioned, with proposals and diffs available in either view."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 5406,
+      "text": "Governance by Design"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 5433,
+      "text": "Easily publish or propose contracts, with complete auditability and permission control built in."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 5406,
+      "text": "AI-powered Data Contracts"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 5433,
+      "text": "Let AI do the heavy lifting. Automatically generate or refine contracts and checks designed for both technical and business users."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 5406,
+      "text": "Quality at Scale"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 5433,
+      "text": "Enforce standards across every data product with contracts to automate quality checks and ensure compliance."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 5561,
+      "text": "Book a demo"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 5559,
+      "text": "Learn more"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 5572,
+      "text": "About Collaborative Data Contracts"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6154,
+      "text": "Root Cause Analytics"
+    },
+    {
+      "tag": "h2",
+      "className": "framer-text",
+      "top": 6189,
+      "text": "Isolate, manage and fix bad data. In your environment"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6402,
+      "text": "Diagnostics Warehouse"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6429,
+      "text": "All failed records, whether flagged by a data contract or detected as anomalies, are automatically stored in your data warehouse of choice."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6402,
+      "text": "Complete Traceability"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6429,
+      "text": "Gain complete visibility into your data operations - every log and anomaly is captured for transparent auditing and faster issue resolution."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6402,
+      "text": "Security by Design"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6429,
+      "text": "Data stays in your cloud: secure, compliant, and fully under your control."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6402,
+      "text": "AI Remediation (Soon)"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6429,
+      "text": "Fix bad records in source systems with AI-generated recommendations."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6557,
+      "text": "Book a demo"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6555,
+      "text": "Learn more"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6568,
+      "text": "About Root Cause Analytics"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6677,
+      "text": "Missing"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6806,
+      "text": "Duplicated"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6935,
+      "text": "Invalid"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6677,
+      "text": "Customer records"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6806,
+      "text": "Sales records"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 6935,
+      "text": "Transactional records"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-unligl",
+      "top": 46,
+      "text": "Product"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-unligl",
+      "top": 46,
+      "text": "Solutions"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 44,
+      "text": "Pricing"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 44,
+      "text": "Templates"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 44,
+      "text": "Blog"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 44,
+      "text": "Log in"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 44,
+      "text": "Book a demo"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 7110,
+      "text": "Case studies"
+    },
+    {
+      "tag": "h2",
+      "className": "framer-text",
+      "top": 7145,
+      "text": "Trusted by the world\u2019s leading enterprises"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 7278,
+      "text": "Real stories from companies using Soda to keep their data reliable, accurate, and ready for action."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 7542,
+      "text": "At the end of the day, we don\u2019t want to be in there managing the checks, updating the checks, adding the checks. We just want to go and observe what\u2019s happening, and that\u2019s what Soda is enabling right now."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-tuhifc",
+      "top": 7749,
+      "text": "Sid Srivastava"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 7773,
+      "text": "Director of Data Governance, Quality and MLOps"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 7880,
+      "text": "Read the story"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 7542,
+      "text": "Investing in data quality is key for cross-functional teams to make accurate, complete decisions with fewer risks and greater returns, using initiatives such as product thinking, data governance, and self-service platforms."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-tuhifc",
+      "top": 7786,
+      "text": "Mario Konschake"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 7810,
+      "text": "Director of Product-Data Platform"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 7880,
+      "text": "Read the story"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 8118,
+      "text": "Soda has integrated seamlessly into our technology stack and given us the confidence to find, analyze, implement, and resolve data issues through a simple self-serve capability."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-tuhifc",
+      "top": 8325,
+      "text": "Sutaraj Dutta"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 8349,
+      "text": "Data Engineering Manager"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 8456,
+      "text": "Read the story"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 8118,
+      "text": "Our goal was to deliver high-quality datasets in near real-time, ensuring dashboards reflect live data as it flows in. But beyond solving technical challenges, we wanted to spark a cultural shift - empowering the entire organization to make decisions grounded in accurate, timely data."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-tuhifc",
+      "top": 8362,
+      "text": "Gu Xie"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 8386,
+      "text": "Head of Data Engineering"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 8456,
+      "text": "Read the story"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 8789,
+      "text": "Integrations"
+    },
+    {
+      "tag": "h2",
+      "className": "framer-text",
+      "top": 8824,
+      "text": "Works with the tools your team already uses"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 8956,
+      "text": "Connect Soda to your data stack in minutes \u2014 no heavy setup, no migration, just smooth integration."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 9060,
+      "text": "Book a demo"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 9059,
+      "text": "All integrations"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 9489,
+      "text": "4.4 of 5"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 9518,
+      "text": "Your data has problems. Now they fix themselves."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 9701,
+      "text": "Automated data quality, remediation, and management."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 9731,
+      "text": "One platform, agents that do the work, you approve."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 9809,
+      "text": "Book a demo"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 9913,
+      "text": "Trusted by"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 10187,
+      "text": "AI-native Data Quality"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 10268,
+      "text": "Product"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10301,
+      "text": "Soda AI"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10326,
+      "text": "Soda MCP"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10351,
+      "text": "Data Observability"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10376,
+      "text": "Collaborative Data Contracts"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10401,
+      "text": "Smart Alerting"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10426,
+      "text": "Record Level-Diagnostics"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10451,
+      "text": "Lineage and Impact"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10476,
+      "text": "Diagnostics Warehouse"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10501,
+      "text": "Automated Record-level Resolution"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10526,
+      "text": "Automated Pipeline Fixing"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 10149,
+      "text": "Solutions"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 10181,
+      "text": "Personas"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10203,
+      "text": "Data Governance"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10228,
+      "text": "Data Architect"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10253,
+      "text": "Data Consumer"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10278,
+      "text": "Data Engineer"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10303,
+      "text": "Data Steward"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 10336,
+      "text": "Use Cases"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10358,
+      "text": "Operationalize Data Governance"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10383,
+      "text": "Pipeline Testing"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10408,
+      "text": "Data Mesh"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10433,
+      "text": "Cloud Migration & Reconciliation"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10458,
+      "text": "BCBS 239 Compliance"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 10149,
+      "text": "Company"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10181,
+      "text": "Pricing"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10206,
+      "text": "Careers"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10231,
+      "text": "About"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10256,
+      "text": "Swag Store"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10281,
+      "text": "Trust Center"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 10326,
+      "text": "Resources"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10358,
+      "text": "Blog"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10383,
+      "text": "Documentation"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10408,
+      "text": "Why Data Quality"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10433,
+      "text": "Data Contract Examples"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10458,
+      "text": "Webinars"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10483,
+      "text": "Events"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10508,
+      "text": "Release Notes"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10533,
+      "text": "Slack"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10558,
+      "text": "Contact Support"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 10149,
+      "text": "Blog"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10181,
+      "text": "What are Data Quality Dimensions?"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10206,
+      "text": "Intro to Data Lineage 101"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10231,
+      "text": "Preventing Issues with Data Contracts"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10256,
+      "text": "Data Observability and Testing on Databricks"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 10322,
+      "text": "Compare"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10354,
+      "text": "Soda vs Monte Carlo"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10379,
+      "text": "Soda vs Anomalo"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10404,
+      "text": "Soda vs Great Expectations"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text framer-styles-preset-p5c9sp",
+      "top": 10429,
+      "text": "Soda vs In-house Solution"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 10711,
+      "text": "\u24d2 2026 Soda Data Inc. All rights reserved."
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 10711,
+      "text": "Terms & Conditions"
+    },
+    {
+      "tag": "p",
+      "className": "framer-text",
+      "top": 10711,
+      "text": "Privacy Policy"
+    }
+  ],
+  "montecarlo": [
+    {
+      "tag": "nav",
+      "className": "nav-primary static flex-1 w-full",
+      "top": 0,
+      "text": "Platform Solutions Resources Company Pricing"
+    },
+    {
+      "tag": "li",
+      "className": "group md:static",
+      "top": 0,
+      "text": "Platform"
+    },
+    {
+      "tag": "li",
+      "className": "group md:static",
+      "top": 0,
+      "text": "Solutions"
+    },
+    {
+      "tag": "li",
+      "className": "group md:static",
+      "top": 0,
+      "text": "Resources"
+    },
+    {
+      "tag": "li",
+      "className": "group md:static",
+      "top": 0,
+      "text": "Company"
+    },
+    {
+      "tag": "li",
+      "className": "group md:static",
+      "top": 0,
+      "text": "Pricing"
+    },
+    {
+      "tag": "h1",
+      "className": "mc-hero-headline mc-hero-headline-stack",
+      "top": 186,
+      "text": "Trust your agents in production"
+    },
+    {
+      "tag": "p",
+      "className": "mc-hero-subhead",
+      "top": 460,
+      "text": "Monte Carlo is the only platform that monitors, troubleshoots, and optimizes your agents and their underlying data at scale."
+    },
+    {
+      "tag": "p",
+      "className": "mc-trust-title",
+      "top": 1849,
+      "text": "400+ LEADING ENTERPRISES CHOOSE MONTE CARLO"
+    },
+    {
+      "tag": "h2",
+      "className": "mcb-hiw__title",
+      "top": 2623,
+      "text": "A path to self-improving agents"
+    },
+    {
+      "tag": "p",
+      "className": "mcb-hiw__lead",
+      "top": 2729,
+      "text": "Bayes learns your unique AI and data environment as soon as it\u2019s connected. Then, it runs on a loop based on reinforcement learning principles to continuously detect and fix issues as they surface."
+    },
+    {
+      "tag": "h2",
+      "className": "mcn__title",
+      "top": 3162,
+      "text": "More signal, less noise"
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "top": 3215,
+      "text": "Bayes automates the manual toil of issue detection, triage, and remediation. It cuts through the noise so your team gets a single, evidence-backed fix \u2013 not a flood of alerts to sift through."
+    },
+    {
+      "tag": "span",
+      "className": "mcn-badge mcn-badge--blue",
+      "top": 3461,
+      "text": "1 new"
+    },
+    {
+      "tag": "h3",
+      "className": "",
+      "top": 3627,
+      "text": "Support agent is quoting yesterday\u2019s refund amounts"
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "top": 3662,
+      "text": "Likely cause: the 2:00 AM dbt rebuild of orders timed out after the Stripe load arrived 50 minutes late."
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "top": 3720,
+      "text": "Suggested fix: re-run orders and its 2 downstream models, then raise the job timeout to 45 min."
+    },
+    {
+      "tag": "span",
+      "className": "mcn-badge mcn-badge--red",
+      "top": 0,
+      "text": "47 new"
+    },
+    {
+      "tag": "p",
+      "className": "mc-eyebrow-mono",
+      "top": 4158,
+      "text": "CUSTOMER STORIES"
+    },
+    {
+      "tag": "h2",
+      "className": "",
+      "top": 4194,
+      "text": "Agent trust for the enterprise"
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "top": 4255,
+      "text": "Our customers scale trust, reduce risk and deliver better business outcomes. See how you can too."
+    },
+    {
+      "tag": "p",
+      "className": "mc-quote-eyebrow",
+      "top": 4423,
+      "text": "AXIOS"
+    },
+    {
+      "tag": "p",
+      "className": "mc-quote-eyebrow",
+      "top": 4423,
+      "text": "JETBLUE"
+    },
+    {
+      "tag": "p",
+      "className": "mc-quote-eyebrow",
+      "top": 4423,
+      "text": "ROCHE"
+    },
+    {
+      "tag": "p",
+      "className": "mc-eyebrow",
+      "top": 4980,
+      "text": "BUSINESS VALUE"
+    },
+    {
+      "tag": "h2",
+      "className": "",
+      "top": 5014,
+      "text": "The ROI of trusted agents"
+    },
+    {
+      "tag": "p",
+      "className": "mc-roi-num",
+      "top": 5152,
+      "text": "375%"
+    },
+    {
+      "tag": "p",
+      "className": "mc-roi-num",
+      "top": 5152,
+      "text": "6,500"
+    },
+    {
+      "tag": "p",
+      "className": "mc-roi-label",
+      "top": 5210,
+      "text": "hours saved"
+    },
+    {
+      "tag": "p",
+      "className": "mc-roi-num",
+      "top": 5152,
+      "text": "$1.5M"
+    },
+    {
+      "tag": "p",
+      "className": "mc-roi-label",
+      "top": 5210,
+      "text": "avoided losses"
+    },
+    {
+      "tag": "h2",
+      "className": "mc-cta-h",
+      "top": 5590,
+      "text": "Get started fast \u2014scale faster."
+    },
+    {
+      "tag": "h3",
+      "className": "nav-title font-medium text-xs tracking-[",
+      "top": 5844,
+      "text": "PLATFORM"
+    },
+    {
+      "tag": "h3",
+      "className": "nav-title font-medium text-xs tracking-[",
+      "top": 5844,
+      "text": "SOLUTIONS"
+    },
+    {
+      "tag": "h3",
+      "className": "nav-title font-medium text-xs tracking-[",
+      "top": 5844,
+      "text": "RESOURCES"
+    },
+    {
+      "tag": "h3",
+      "className": "nav-title font-medium text-xs tracking-[",
+      "top": 5844,
+      "text": "COMPANY"
+    },
+    {
+      "tag": "h3",
+      "className": "nav-title font-medium text-xs tracking-[",
+      "top": 5844,
+      "text": "TRUST"
+    }
+  ]
+}

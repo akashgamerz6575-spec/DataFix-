@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bg03" cx="50%" cy="30%" r="85%">
+      <stop offset="0%" stop-color="#f7fdfa"/>
+      <stop offset="60%" stop-color="#ecf6f0"/>
+      <stop offset="100%" stop-color="#ddebe2"/>
+    </radialGradient>
+    <filter id="sh03" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#14281e" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg03)"/>
+  
+  <g stroke="#cfded4" stroke-width="1" opacity="0.35">
+    <line x1="160" y1="180" x2="1760" y2="180"/>
+    <line x1="160" y1="360" x2="1760" y2="360"/>
+    <line x1="160" y1="540" x2="1760" y2="540"/>
+    <line x1="160" y1="720" x2="1760" y2="720"/>
+    <line x1="160" y1="900" x2="1760" y2="900"/>
+    <line x1="360" y1="80" x2="360" y2="1000"/>
+    <line x1="660" y1="80" x2="660" y2="1000"/>
+    <line x1="960" y1="80" x2="960" y2="1000"/>
+    <line x1="1260" y1="80" x2="1260" y2="1000"/>
+    <line x1="1560" y1="80" x2="1560" y2="1000"/>
+  </g>
+
+  <g transform="translate(960, 520)" filter="url(#sh03)">
+    <line x1="0" y1="-320" x2="0" y2="340" stroke="#059669" stroke-width="2" stroke-dasharray="6 6" opacity="0.5"/>
+    
+    <g transform="translate(0, 230)">
+      <polygon points="0,-70 380,120 0,310 -380,120" fill="#dbe7df" stroke="#b2c6b9" stroke-width="2"/>
+      <polygon points="-380,120 0,310 0,345 -380,155" fill="#8ea394"/>
+      <polygon points="0,310 380,120 380,155 0,345" fill="#a7bcae"/>
+      <polygon points="-50,140 70,80 130,110 10,170" fill="#ede9fe" stroke="#7c3aed" stroke-width="2.5" stroke-dasharray="5 4"/>
+      <ellipse cx="40" cy="125" rx="18" ry="10" fill="#8b5cf6" opacity="0.5"/>
+    </g>
+
+    <g transform="translate(0, 80)">
+      <polygon points="0,-70 380,120 0,310 -380,120" fill="#e8f2eb" stroke="#b7cdc0" stroke-width="2"/>
+      <polygon points="-380,120 0,310 0,340 -380,150" fill="#9db3a5"/>
+      <polygon points="0,310 380,120 380,150 0,340" fill="#b3c9bc"/>
+      <polygon points="-130,110 -30,60 30,90 -70,140" fill="#fef3c7" stroke="#f59e0b" stroke-width="2.5"/>
+      <polygon points="-110,90 -10,40 50,70 -50,120" fill="#fde68a" stroke="#d97706" stroke-width="2.5" opacity="0.9"/>
+    </g>
+
+    <g transform="translate(0, -70)">
+      <polygon points="0,-70 380,120 0,310 -380,120" fill="#f3faf6" stroke="#c2dacd" stroke-width="2"/>
+      <polygon points="-380,120 0,310 0,340 -380,150" fill="#acc3b5"/>
+      <polygon points="0,310 380,120 380,150 0,340" fill="#c3d7cb"/>
+      <polygon points="90,40 190,90 110,130 10,80" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+      <polygon points="-190,60 -90,10 -10,50 -110,100" fill="#ffedd5" stroke="#f97316" stroke-width="2"/>
+    </g>
+
+    <g transform="translate(0, -220)">
+      <polygon points="0,-70 380,120 0,310 -380,120" fill="#ffffff" stroke="#10b981" stroke-width="3"/>
+      <polygon points="-380,120 0,310 0,340 -380,150" fill="#1b4332"/>
+      <polygon points="0,310 380,120 380,150 0,340" fill="#2d6a4f"/>
+      <g stroke="#a7f3d0" stroke-width="1.8" fill="none">
+        <line x1="-190" y1="25" x2="190" y2="215"/>
+        <line x1="-95" y1="-22" x2="285" y2="168"/>
+        <line x1="190" y1="25" x2="-190" y2="215"/>
+        <line x1="95" y1="-22" x2="-285" y2="168"/>
+      </g>
+      <circle cx="0" cy="120" r="14" fill="#10b981" stroke="#ffffff" stroke-width="3"/>
+    </g>
+
+    <g stroke="#059669" stroke-width="1.8" stroke-dasharray="5 5" opacity="0.6">
+      <line x1="-380" y1="-100" x2="-380" y2="360"/>
+      <line x1="380" y1="-100" x2="380" y2="360"/>
+      <line x1="0" y1="-290" x2="0" y2="200"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bg05" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#f8fdfb"/>
+      <stop offset="60%" stop-color="#ecf6f1"/>
+      <stop offset="100%" stop-color="#dcebe2"/>
+    </radialGradient>
+    <filter id="sh05" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#14281e" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg05)"/>
+  
+  <g transform="translate(960, 520)" filter="url(#sh05)">
+    <polygon points="-460,200 460,200 380,320 -380,320" fill="#e2ede5" stroke="#b8cfc1" stroke-width="2"/>
+    <polygon points="-380,320 380,320 380,345 -380,345" fill="#9db5a6"/>
+    
+    <g transform="translate(-400, -20)">
+      <polygon points="0,-160 260,-30 260,220 0,90" fill="#ffffff" stroke="#c0d7ca" stroke-width="2.5"/>
+      <polygon points="-240,-40 0,-160 0,90 -240,210" fill="#e8f2eb" stroke="#a7c2b2" stroke-width="2.5"/>
+      <polygon points="-240,210 0,90 260,220 20,340" fill="#b9d2c4"/>
+      
+      <g fill="#cfded5" stroke="#9bb6a6" stroke-width="1.5">
+        <rect x="-180" y="20" width="80" height="24" rx="4"/>
+        <rect x="-180" y="60" width="80" height="24" rx="4"/>
+        <rect x="-180" y="100" width="80" height="24" rx="4"/>
+        <rect x="-80" y="20" width="80" height="24" rx="4"/>
+        <rect x="-80" y="60" width="80" height="24" rx="4"/>
+        <rect x="-80" y="100" width="80" height="24" rx="4"/>
+      </g>
+      <circle cx="10" cy="-60" r="16" fill="#1b4332"/>
+      <rect x="2" y="-56" width="16" height="14" rx="2" fill="#ffffff"/>
+      <path d="M6,-56 L6,-62 A4,4 0 0,1 14,-62 L14,-56" stroke="#ffffff" stroke-width="2.5" fill="none"/>
+    </g>
+
+    <g transform="translate(400, -20)">
+      <polygon points="0,-160 -260,-30 -260,220 0,90" fill="#ffffff" stroke="#10b981" stroke-width="2.5"/>
+      <polygon points="240,-40 0,-160 0,90 240,210" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="2.5"/>
+      <polygon points="240,210 0,90 -260,220 -20,340" fill="#a7f3d0"/>
+      
+      <g fill="#d1fae5" stroke="#10b981" stroke-width="1.5">
+        <rect x="100" y="20" width="80" height="24" rx="4"/>
+        <rect x="100" y="60" width="80" height="24" rx="4"/>
+        <rect x="100" y="100" width="80" height="24" rx="4"/>
+        <rect x="0" y="20" width="80" height="24" rx="4"/>
+        <rect x="0" y="60" width="80" height="24" rx="4"/>
+        <rect x="0" y="100" width="80" height="24" rx="4"/>
+      </g>
+      <circle cx="-10" cy="-60" r="16" fill="#10b981"/>
+      <polyline points="-16,-60 -12,-56 -4,-64" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <path d="M-140,80 Q0,-40 140,80" fill="none" stroke="#10b981" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="-60" cy="30" r="9" fill="#059669"/>
+    <circle cx="60" cy="30" r="9" fill="#10b981"/>
+
+    <path d="M-140,140 Q0,20 140,140" fill="none" stroke="#10b981" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="0" cy="80" r="9" fill="#34d399"/>
+
+    <path d="M-140,200 Q0,80 0,130" fill="none" stroke="#f59e0b" stroke-width="3" stroke-dasharray="6 6"/>
+    <rect x="-18" y="116" width="36" height="26" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="2.5"/>
+    <circle cx="0" cy="129" r="4" fill="#b45309"/>
+
+    <circle cx="-140" cy="240" r="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2.5"/>
+    <circle cx="140" cy="240" r="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2.5"/>
+  </g>
+</svg>

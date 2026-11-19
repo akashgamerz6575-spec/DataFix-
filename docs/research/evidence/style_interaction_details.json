@@ -1,0 +1,589 @@
+{
+  "soda": {
+    "fonts": [
+      "Times New Roman",
+      "sans-serif",
+      "Inter",
+      "Menlo",
+      "Geist Mono",
+      "Abhaya Libre"
+    ],
+    "colorsSample": [
+      "rgb(0, 0, 0)",
+      "rgb(0, 0, 238)",
+      "rgb(13, 28, 26)",
+      "rgba(13, 28, 26, 0.8)",
+      "rgb(15, 15, 15)",
+      "rgb(46, 46, 46)",
+      "rgb(17, 50, 39)",
+      "rgb(99, 99, 99)",
+      "rgb(26, 26, 26)",
+      "rgb(66, 66, 66)",
+      "rgb(212, 212, 212)",
+      "rgb(107, 255, 193)",
+      "rgb(181, 206, 168)",
+      "rgb(28, 28, 28)",
+      "rgb(17, 0, 102)"
+    ],
+    "bgColorsSample": [
+      "rgb(255, 255, 255)",
+      "rgba(156, 201, 201, 0.5)",
+      "rgb(200, 230, 255)",
+      "rgb(18, 226, 157)",
+      "rgb(250, 250, 250)",
+      "rgba(255, 255, 255, 0.8)",
+      "rgb(30, 30, 30)",
+      "rgb(0, 0, 0)",
+      "rgb(255, 128, 138)",
+      "rgb(255, 227, 128)",
+      "rgb(248, 245, 255)",
+      "rgb(17, 50, 39)",
+      "rgb(209, 255, 240)",
+      "rgb(158, 250, 210)",
+      "rgb(37, 37, 38)"
+    ],
+    "buttons": [
+      {
+        "text": "Data Quality is Solved.\n\nSee what we lau",
+        "tag": "a",
+        "bg": "rgb(200, 230, 255)",
+        "color": "rgb(0, 0, 238)",
+        "border": "0px none rgb(0, 0, 238)",
+        "radius": "40px",
+        "boxShadow": "rgba(13, 28, 26, 0.08) 0px 1px 2px 0px, rgba(120, 170, 255, 0.45) 0px 8px 24px -6px",
+        "transition": "all"
+      },
+      {
+        "text": "Book a demo",
+        "tag": "a",
+        "bg": "rgb(18, 226, 157)",
+        "color": "rgb(0, 0, 238)",
+        "border": "0px none rgb(0, 0, 238)",
+        "radius": "64px",
+        "boxShadow": "rgba(0, 0, 0, 0) 0px 2px 5px 0px",
+        "transition": "all"
+      },
+      {
+        "text": "Learn more\n\nAbout Soda AI",
+        "tag": "a",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 238)",
+        "border": "0px none rgb(0, 0, 238)",
+        "radius": "60px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "Soda AI",
+        "tag": "a",
+        "bg": "rgb(248, 245, 255)",
+        "color": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "40px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "Book a demo",
+        "tag": "a",
+        "bg": "rgb(18, 226, 157)",
+        "color": "rgb(0, 0, 238)",
+        "border": "0px none rgb(0, 0, 238)",
+        "radius": "64px",
+        "boxShadow": "rgba(0, 0, 0, 0) 0px 2px 5px 0px",
+        "transition": "all"
+      },
+      {
+        "text": "Learn more\n\nAbout Soda AI",
+        "tag": "a",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 238)",
+        "border": "0px none rgb(0, 0, 238)",
+        "radius": "60px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "Data Observability",
+        "tag": "a",
+        "bg": "rgb(209, 255, 240)",
+        "color": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "40px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "Book a demo",
+        "tag": "a",
+        "bg": "rgb(18, 226, 157)",
+        "color": "rgb(0, 0, 238)",
+        "border": "0px none rgb(0, 0, 238)",
+        "radius": "64px",
+        "boxShadow": "rgba(0, 0, 0, 0) 0px 2px 5px 0px",
+        "transition": "all"
+      },
+      {
+        "text": "Learn more\n\nAbout Data Obesrvability",
+        "tag": "a",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 238)",
+        "border": "0px none rgb(0, 0, 238)",
+        "radius": "60px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "Data Contracts",
+        "tag": "a",
+        "bg": "rgb(158, 250, 210)",
+        "color": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "40px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "Book a demo",
+        "tag": "a",
+        "bg": "rgb(18, 226, 157)",
+        "color": "rgb(0, 0, 238)",
+        "border": "0px none rgb(0, 0, 238)",
+        "radius": "64px",
+        "boxShadow": "rgba(0, 0, 0, 0) 0px 2px 5px 0px",
+        "transition": "all"
+      },
+      {
+        "text": "Learn more\n\nAbout Collaborative Data Con",
+        "tag": "a",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 238)",
+        "border": "0px none rgb(0, 0, 238)",
+        "radius": "60px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "Root Cause Analytics",
+        "tag": "a",
+        "bg": "rgb(243, 252, 238)",
+        "color": "rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "40px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "Book a demo",
+        "tag": "a",
+        "bg": "rgb(18, 226, 157)",
+        "color": "rgb(0, 0, 238)",
+        "border": "0px none rgb(0, 0, 238)",
+        "radius": "64px",
+        "boxShadow": "rgba(0, 0, 0, 0) 0px 2px 5px 0px",
+        "transition": "all"
+      },
+      {
+        "text": "Learn more\n\nAbout Root Cause Analytics",
+        "tag": "a",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 238)",
+        "border": "0px none rgb(0, 0, 238)",
+        "radius": "60px",
+        "boxShadow": "none",
+        "transition": "all"
+      }
+    ],
+    "cards": [
+      {
+        "tag": "div",
+        "className": "framer-ektlq",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "24px",
+        "boxShadow": "rgba(0, 0, 0, 0.01) 0px -0.482901px 1.64186px 0px inset, rgba(0, 0, 0, 0.05) 0px -4px 13.6px 0px inset",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "framer-1v6xwo7",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 238)",
+        "borderRadius": "39px",
+        "boxShadow": "rgb(255, 255, 255) 0px 1px 0px 0px inset",
+        "backdropFilter": "blur(8px)"
+      },
+      {
+        "tag": "div",
+        "className": "framer-1b8xft0",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 238)",
+        "borderRadius": "40px",
+        "boxShadow": "rgba(255, 255, 255, 0.7) 0px 1px 0px 0px inset, rgba(110, 160, 255, 0.5) 0px 2px 8px -3px",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "framer-td553s",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "32px",
+        "boxShadow": "rgba(0, 0, 0, 0.08) 0px 0.796192px 1.43315px -0.625px, rgba(0, 0, 0, 0.08) 0px 2.41451px 4.34611px -1.25px, rgba(0, 0, 0, 0.08) 0px 6.38265px 11.4888px -1.875px, rgba(0, 0, 0, 0.08) 0px 20px 36px -2.5px",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "framer-7i72c0",
+        "bg": "rgb(250, 250, 250)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "12px",
+        "boxShadow": "rgba(0, 0, 0, 0.04) 0px 0.48175px 1.63795px -0.333333px, rgba(0, 0, 0, 0.05) 0px 1.83083px 6.22481px -0.666667px, rgba(0, 0, 0, 0.12) 0px 8px 27.2px -1px",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "framer-1jovxp0",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px 0px 24px 24px",
+        "boxShadow": "none",
+        "backdropFilter": "blur(10px)"
+      },
+      {
+        "tag": "div",
+        "className": "framer-1ftkdtc",
+        "bg": "rgba(255, 255, 255, 0.8)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "8px",
+        "boxShadow": "rgba(0, 0, 0, 0.13) 0px 0.602187px 1.56569px -0.833333px, rgba(0, 0, 0, 0.13) 0px 2.28853px 5.95019px -1.66667px, rgba(0, 0, 0, 0.13) 0px 10px 26px -2.5px",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "",
+        "bg": "rgb(30, 30, 30)",
+        "border": "1px solid rgb(62, 62, 66)",
+        "borderRadius": "8px",
+        "boxShadow": "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px inset",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "framer-1l3dwv7",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "8px",
+        "boxShadow": "rgba(0, 0, 0, 0.13) 0px 0.602187px 1.56569px -0.833333px, rgba(0, 0, 0, 0.13) 0px 2.28853px 5.95019px -1.66667px, rgba(0, 0, 0, 0.13) 0px 10px 26px -2.5px",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "framer-yt4rsa",
+        "bg": "rgb(18, 226, 157)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "17.14px",
+        "boxShadow": "rgba(0, 0, 0, 0.09) 0px -0.796192px 1.11467px -0.75px inset, rgba(0, 0, 0, 0.09) 0px -2.41451px 3.38031px -1.5px inset, rgba(0, 0, 0, 0.08) 0px -6.38265px 8.93571px -2.25px inset, rgba(0, 0, 0, 0.06) 0px -20px 28px -3px inset, rgba(153, 255, 153, 0.98) 0px 0.706592px 1.27187px -0.833333px inset, rgba(153, 255, 153, 0.94) 0px 1.80656px 3.25181px -1.66667px inset, rgba(153, 255, 153, 0.88) 0px 3.62176px 6.51917px -2.5px inset, rgba(153, 255, 153, 0.77) 0px 6.8656px 12.3581px -3.33333px inset, rgba(153, 255, 153, 0.55) 0px 13.6468px 24.5642px -4.16667px inset, rgba(153, 255, 153, 0) 0px 30px 54px -5px inset, rgba(0, 0, 0, 0.08) 0px 0.796192px 3.98096px -0.625px, rgba(0, 0, 0, 0.08) 0px 2.41451px 12.0725px -1.25px, rgba(0, 0, 0, 0.08) 0px 6.38265px 31.9133px -1.875px, rgba(0, 0, 0, 0.08) 0px 20px 100px -2.5px, rgba(0, 0, 0, 0.17) 0px 0.301094px 0.0903281px -1.16667px, rgba(0, 0, 0, 0.15) 0px 1.14427px 0.34328px -2.33333px, rgba(0, 0, 0, 0.08) 0px 5px 1.5px -3.5px, rgba(0, 0, 0, 0.13) 0px -0.482901px 0.482901px -1.25px inset, rgba(0, 0, 0, 0.13) 0px -4px 4px -2.5px inset, rgba(0, 0, 0, 0.05) 0px 0px 0px 2.86px, rgba(0, 0, 0, 0.02) 0px 0px 0px 11.43px, rgba(0, 0, 0, 0.1) 0px 0px 0px 5.71px inset",
+        "backdropFilter": "none"
+      }
+    ],
+    "heroInfo": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "display": "flex",
+      "padding": "0px"
+    }
+  },
+  "montecarlo": {
+    "fonts": [
+      "Outfit",
+      "outfit",
+      "Open Sans",
+      "ui-monospace",
+      "IBM Plex Mono"
+    ],
+    "colorsSample": [
+      "rgb(255, 255, 255)",
+      "oklch(0.554 0.046 257.417)",
+      "oklch(0.928 0.006 264.531)",
+      "rgb(0, 0, 0)",
+      "rgb(71, 71, 71)",
+      "rgba(0, 0, 0, 0)",
+      "rgb(43, 43, 43)",
+      "rgb(13, 31, 91)",
+      "rgba(255, 255, 255, 0.78)",
+      "rgba(255, 255, 255, 0.8)",
+      "rgba(255, 255, 255, 0.65)",
+      "rgb(126, 166, 255)",
+      "rgb(142, 155, 180)",
+      "rgb(228, 234, 245)",
+      "rgb(207, 217, 238)"
+    ],
+    "bgColorsSample": [
+      "rgb(0, 17, 29)",
+      "rgb(16, 64, 255)",
+      "rgba(0, 33, 53, 0.7)",
+      "rgb(255, 255, 255)",
+      "rgb(51, 51, 51)",
+      "rgb(255, 87, 0)",
+      "rgba(255, 255, 255, 0.02)",
+      "rgb(255, 90, 31)",
+      "rgba(255, 255, 255, 0.06)",
+      "rgba(255, 255, 255, 0.05)",
+      "rgba(32, 70, 210, 0.55)",
+      "rgba(255, 255, 255, 0.04)",
+      "rgb(26, 61, 245)",
+      "rgba(255, 255, 255, 0.07)",
+      "rgba(20, 40, 90, 0.4)"
+    ],
+    "buttons": [
+      {
+        "text": "Learn more \u2192",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "\u2715",
+        "tag": "button",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px none rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "Skip to content",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "Platform",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "Solutions",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(255, 255, 255)",
+        "radius": "0px",
+        "boxShadow": "none",
+        "transition": "all"
+      }
+    ],
+    "cards": [
+      {
+        "tag": "div",
+        "className": "asl_loader-inner asl_simple-circle",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "",
+        "borderRadius": "50%",
+        "boxShadow": "none",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "searchsettings wpdreams_asl_settings asl_w asl_s asl_s_1",
+        "bg": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(181, 181, 181)",
+        "borderRadius": "0px 0px 3px 3px",
+        "boxShadow": "rgb(181, 181, 181) 0px 0px 0px 1px inset",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "asl_option_checkbox",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgba(0, 0, 0, 0)",
+        "borderRadius": "2px",
+        "boxShadow": "rgba(0, 0, 0, 0.5) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "asl_option_checkbox",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgba(0, 0, 0, 0)",
+        "borderRadius": "2px",
+        "boxShadow": "rgba(0, 0, 0, 0.5) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "asl_option_checkbox",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgba(0, 0, 0, 0)",
+        "borderRadius": "2px",
+        "boxShadow": "rgba(0, 0, 0, 0.5) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "asl_option_checkbox",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgba(0, 0, 0, 0)",
+        "borderRadius": "2px",
+        "boxShadow": "rgba(0, 0, 0, 0.5) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "asl_loader-inner asl_simple-circle",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "",
+        "borderRadius": "50%",
+        "boxShadow": "none",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "searchsettings wpdreams_asl_settings asl_w asl_s asl_s_2",
+        "bg": "rgb(255, 255, 255)",
+        "border": "0px solid rgb(181, 181, 181)",
+        "borderRadius": "0px 0px 3px 3px",
+        "boxShadow": "rgb(181, 181, 181) 0px 0px 0px 1px inset",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "asl_option_checkbox",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgba(0, 0, 0, 0)",
+        "borderRadius": "2px",
+        "boxShadow": "rgba(0, 0, 0, 0.5) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px",
+        "backdropFilter": "none"
+      },
+      {
+        "tag": "div",
+        "className": "asl_option_checkbox",
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgba(0, 0, 0, 0)",
+        "borderRadius": "2px",
+        "boxShadow": "rgba(0, 0, 0, 0.5) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px",
+        "backdropFilter": "none"
+      }
+    ],
+    "heroInfo": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "display": "block",
+      "padding": "0px"
+    }
+  }
+}
