@@ -1,0 +1,118 @@
+{
+  "desktop_viewports": {
+    "1920x1080_full_hd": {
+      "width": 1920,
+      "height": 1080,
+      "hero_file": "desktop_resolution_1920x1080_full_hd_hero.png",
+      "stage1_file": "desktop_resolution_1920x1080_full_hd_stage1.png"
+    },
+    "1440x900_macbook_standard": {
+      "width": 1440,
+      "height": 900,
+      "hero_file": "desktop_resolution_1440x900_macbook_standard_hero.png",
+      "stage1_file": "desktop_resolution_1440x900_macbook_standard_stage1.png"
+    },
+    "1366x768_laptop_standard": {
+      "width": 1366,
+      "height": 768,
+      "hero_file": "desktop_resolution_1366x768_laptop_standard_hero.png",
+      "stage1_file": "desktop_resolution_1366x768_laptop_standard_stage1.png"
+    },
+    "1280x720_compact_hd": {
+      "width": 1280,
+      "height": 720,
+      "hero_file": "desktop_resolution_1280x720_compact_hd_hero.png",
+      "stage1_file": "desktop_resolution_1280x720_compact_hd_stage1.png"
+    }
+  },
+  "desktop_stages": [
+    {
+      "stage": 1,
+      "name": "ingest",
+      "badge": "Stage 1 / 8 \u00b7 Ingest",
+      "title": "Dirty dataset enters safely",
+      "file": "desktop_stage_01_ingest.png"
+    },
+    {
+      "stage": 2,
+      "name": "detect",
+      "badge": "Stage 2 / 8 \u00b7 Detect",
+      "title": "Anomalies surface with precision",
+      "file": "desktop_stage_02_detect.png"
+    },
+    {
+      "stage": 3,
+      "name": "diagnose",
+      "badge": "Stage 3 / 8 \u00b7 Diagnose",
+      "title": "Contextual root-cause dossier",
+      "file": "desktop_stage_03_diagnose.png"
+    },
+    {
+      "stage": 4,
+      "name": "propose",
+      "badge": "Stage 4 / 8 \u00b7 Propose",
+      "title": "Evidence-backed repair proposals",
+      "file": "desktop_stage_04_propose.png"
+    },
+    {
+      "stage": 5,
+      "name": "gate",
+      "badge": "Stage 5 / 8 \u00b7 Gate",
+      "title": "Three-way safety gate",
+      "file": "desktop_stage_05_gate.png"
+    },
+    {
+      "stage": 6,
+      "name": "simulate",
+      "badge": "Stage 6 / 8 \u00b7 Simulate",
+      "title": "Before-and-after diff simulation",
+      "file": "desktop_stage_06_simulate.png"
+    },
+    {
+      "stage": 7,
+      "name": "checks",
+      "badge": "Stage 7 / 8 \u00b7 Checks",
+      "title": "Integrity & invariant checks",
+      "file": "desktop_stage_07_checks.png"
+    },
+    {
+      "stage": 8,
+      "name": "proof",
+      "badge": "Stage 8 / 8 \u00b7 Proof",
+      "title": "Transparent verification proof",
+      "file": "desktop_stage_08_proof.png"
+    }
+  ],
+  "state_propagation": {
+    "button_before": "\u2713Approve Duplicate Removal",
+    "button_after": "\u21baReset Sample Decision",
+    "score_approved": "97%",
+    "sub_approved": "29/30 Clean",
+    "success": true,
+    "score_reverted": "93%"
+  },
+  "natural_release": {
+    "outro_visible": true
+  },
+  "console_logs": [
+    {
+      "type": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "source": "network",
+      "level": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "http://127.0.0.1:5176/favicon.ico"
+    }
+  ],
+  "js_errors": []
+}

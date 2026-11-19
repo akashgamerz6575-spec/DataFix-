@@ -16,7 +16,7 @@ export const OverviewPage: React.FC = () => {
         <FileText className="w-12 h-12 text-slate-400 mx-auto" />
         <h2 className="text-xl font-bold text-slate-800">No active run selected</h2>
         <p className="text-sm text-slate-500">Upload a CSV file to inspect its profile and detected issues.</p>
-        <Button onClick={() => navigate('/')}>Return to Intake</Button>
+        <Button onClick={() => navigate('/app')}>Return to Intake</Button>
       </div>
     );
   }
@@ -32,7 +32,7 @@ export const OverviewPage: React.FC = () => {
           <div className="text-[11px] font-mono tracking-wider text-slate-500 uppercase">
             Dataset Profile & Quality Overview
           </div>
-          <h1 className="text-2xl font-bold text-slate-900 mt-1">{profile.filename}</h1>
+          <h1 className="font-serif text-2xl font-bold text-slate-900 mt-1">{profile.filename}</h1>
           <p className="text-xs text-slate-500 font-mono mt-1">
             {profile.row_count.toLocaleString()} rows · {profile.column_count} columns ·{' '}
             {profile.total_cells.toLocaleString()} cells · Read-only scan

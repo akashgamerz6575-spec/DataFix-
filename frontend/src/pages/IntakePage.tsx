@@ -41,7 +41,7 @@ export const IntakePage: React.FC = () => {
         <div className="text-[11px] font-mono tracking-wider text-emerald-600 font-semibold uppercase">
           Autonomous Data Quality & Repair Engine
         </div>
-        <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
+        <h1 className="font-serif text-3xl font-bold text-slate-900 tracking-tight">
           Fix data without trusting a fix blindly.
         </h1>
         <p className="text-sm text-slate-600 max-w-2xl leading-relaxed">

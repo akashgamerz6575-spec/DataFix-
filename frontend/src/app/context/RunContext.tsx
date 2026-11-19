@@ -14,6 +14,9 @@ interface RunContextValue {
     auto: number;
     approval: number;
     refused: number;
+    userApproved: number;
+    pendingApproval: number;
+    userRejected: number;
     cellsPrevented: number;
     previouslyValidProtected: number;
     willApplyCells: number;
@@ -150,6 +153,12 @@ export const RunProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const approval = proposals.filter((p) => p.decision === 'needs_approval').length;
   const refused = proposals.filter((p) => p.decision === 'refused').length;
 
+  // Subsets inside needs_approval
+  const approvalProposals = proposals.filter((p) => p.decision === 'needs_approval');
+  const userApproved = approvalProposals.filter((p) => p.user_action === 'approved').length;
+  const userRejected = approvalProposals.filter((p) => p.user_action === 'rejected').length;
+  const pendingApproval = approvalProposals.filter((p) => !p.user_action || p.user_action === 'pending').length;
+
   // Changes prevented (sum over refused proposals that have a simulation)
   const refusedWithSim = proposals.filter((p) => p.decision === 'refused' && p.simulation);
   const cellsPrevented = refusedWithSim.reduce((acc, p) => acc + (p.simulation?.cells_changed || 0), 0);
@@ -179,6 +188,9 @@ export const RunProvider: React.FC<{ children: React.ReactNode }> = ({ children 
           auto,
           approval,
           refused,
+          userApproved,
+          pendingApproval,
+          userRejected,
           cellsPrevented,
           previouslyValidProtected,
           willApplyCells,

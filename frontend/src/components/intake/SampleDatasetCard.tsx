@@ -1,5 +1,5 @@
 import React from 'react';
-import { Database, Sparkles, ArrowRight } from 'lucide-react';
+import { Database, FlaskConical, ArrowRight } from 'lucide-react';
 import { SAMPLE_DATASET_NAME } from '../../lib/constants';
 
 interface SampleDatasetCardProps {
@@ -53,10 +53,11 @@ export const SampleDatasetCard: React.FC<SampleDatasetCardProps> = ({
         <button
           onClick={onLoadDemoFixture}
           disabled={disabled}
+          data-testid="load-demo-fixture-btn"
           className="px-3.5 py-2 bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border border-indigo-200 rounded-lg text-xs font-medium flex items-center gap-1.5 transition-colors disabled:opacity-50"
           title="Preview Studio layout with simulated fixture data"
         >
-          <Sparkles className="w-3.5 h-3.5 text-indigo-600" />
+          <FlaskConical className="w-3.5 h-3.5 text-indigo-600" />
           <span>Preview Studio fixture</span>
         </button>
       </div>

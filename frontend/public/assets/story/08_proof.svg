@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bg08" cx="50%" cy="30%" r="85%">
+      <stop offset="0%" stop-color="#f8fdfb"/>
+      <stop offset="60%" stop-color="#ecf6f1"/>
+      <stop offset="100%" stop-color="#d9ebe0"/>
+    </radialGradient>
+    <filter id="sh08" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#14281e" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg08)"/>
+
+  <g transform="translate(960, 520)" filter="url(#sh08)">
+    <path d="M-700,-360 C-400,-300 -600,-100 -300,-40 C-100,0 -200,160 0,220 C200,280 400,200 700,280"
+          fill="none" stroke="#d1fae5" stroke-width="48" stroke-linecap="round"/>
+    <path d="M-700,-360 C-400,-300 -600,-100 -300,-40 C-100,0 -200,160 0,220 C200,280 400,200 700,280"
+          fill="none" stroke="#10b981" stroke-width="3" stroke-dasharray="12 8"/>
+
+    <ellipse cx="0" cy="120" rx="420" ry="200" fill="#e2efe6" stroke="#b6d1c2" stroke-width="2.5"/>
+    <ellipse cx="0" cy="80" rx="350" ry="165" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="2.5"/>
+    <ellipse cx="0" cy="40" rx="270" ry="130" fill="#ffffff" stroke="#10b981" stroke-width="3"/>
+
+    <g stroke="#059669" stroke-width="2">
+      <line x1="0" y1="-85" x2="0" y2="-70"/>
+      <line x1="140" y1="-30" x2="125" y2="-22"/>
+      <line x1="220" y1="40" x2="195" y2="40"/>
+      <line x1="140" y1="110" x2="125" y2="102"/>
+      <line x1="0" y1="165" x2="0" y2="150"/>
+      <line x1="-140" y1="110" x2="-125" y2="102"/>
+      <line x1="-220" y1="40" x2="-195" y2="40"/>
+      <line x1="-140" y1="-30" x2="-125" y2="-22"/>
+    </g>
+
+    <ellipse cx="0" cy="20" rx="140" ry="70" fill="#1b4332" stroke="#ffffff" stroke-width="3"/>
+    <ellipse cx="0" cy="15" rx="110" ry="55" fill="#10b981"/>
+    
+    <circle cx="0" cy="15" r="30" fill="#ffffff"/>
+    <polyline points="-14,15 -4,25 14,5" stroke="#059669" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

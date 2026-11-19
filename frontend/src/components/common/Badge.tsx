@@ -1,9 +1,20 @@
 import React from 'react';
-import { ShieldCheck, Hand, ShieldBan, AlertCircle, Info } from 'lucide-react';
+import { ShieldCheck, Hand, ShieldBan, AlertCircle, Info, Check, X } from 'lucide-react';
 import type { GateDecisionType } from '../../lib/contract-types';
 
 interface BadgeProps {
-  variant: GateDecisionType | 'system_err' | 'neutral' | 'diff_before' | 'diff_after' | 'rule' | 'stat' | 'llm';
+  variant:
+    | GateDecisionType
+    | 'user_approved'
+    | 'user_rejected'
+    | 'pending_approval'
+    | 'system_err'
+    | 'neutral'
+    | 'diff_before'
+    | 'diff_after'
+    | 'rule'
+    | 'stat'
+    | 'llm';
   children: React.ReactNode;
   className?: string;
   size?: 'sm' | 'md';
@@ -21,8 +32,17 @@ export const Badge: React.FC<BadgeProps> = ({ variant, children, className = '',
       IconComponent = ShieldCheck;
       break;
     case 'needs_approval':
+    case 'pending_approval':
       variantStyles = 'bg-amber-50 text-amber-800 border-amber-200';
       IconComponent = Hand;
+      break;
+    case 'user_approved':
+      variantStyles = 'bg-emerald-50 text-emerald-800 border-emerald-300 font-semibold';
+      IconComponent = Check;
+      break;
+    case 'user_rejected':
+      variantStyles = 'bg-rose-50 text-rose-800 border-rose-200';
+      IconComponent = X;
       break;
     case 'refused':
       variantStyles = 'bg-indigo-50 text-indigo-900 border-indigo-200';

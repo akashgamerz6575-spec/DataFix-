@@ -1,0 +1,1152 @@
+{
+  "soda": {
+    "tech": {
+      "title": "Soda Data Quality",
+      "url": "https://soda.io/",
+      "scrollHeight": 10666,
+      "viewportHeight": 804,
+      "viewportWidth": 1422,
+      "libs": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "framerMotion": true,
+        "lenis": false,
+        "locomotive": false,
+        "lottie": false,
+        "three": false,
+        "webflow": false,
+        "nextjs": false,
+        "react": false,
+        "intersectionObserver": true
+      },
+      "scriptsSample": [
+        "https://scripts.clarity.ms/0.8.79-beta/clarity.js",
+        "https://www.redditstatic.com/ads/pixel.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-WF94EGT4KK&cx=c&gtm=4e6bh1",
+        "https://cdn.snitcher.com/releases/latest/radar.min.js",
+        "https://www.clarity.ms/tag/ywmh35oz92",
+        "https://bzrcdn.openai.com/sdk/oaiq.min.js",
+        "https://cdneu.net/app.js",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-N6X5GD8",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://app.lemlist.com/api/visitors/tracking?k=qNgiOXZMSOIvWYh9BjMMkaP1fZYSQ9gQeA%2FMAomix0E%3D&t=tea_QMeDEAfwcaZCn5DWL",
+        "https://static.hotjar.com/c/hotjar-2692050.js?sv=6",
+        "https://learn.soda.io/insight/insight.js",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/710164644/?random=1795070839544&cv=11&fst=1795070839544&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6bh1v870363772za20ozb813189051zd813189051xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~119381663~120213116~120385422~120469145~120469153~121246026~121246034~123322203&u_w=800&u_h=600&url=https%3A%2F%2Fsoda.io%2F&rcb=10&frm=0&tiba=Soda%20Data%20Quality&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1783676715.1795070838&uaa=x86&uab=64&uafvl=Not-A.Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B157.0.8103.79%7CChromium%3B157.0.8103.79&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+        "https://events.framer.com/script?v=2",
+        "https://framerusercontent.com/sites/4YpeGymneLVFK3i0Q8rOjh/script_main.BSLVg8Ha.mjs"
+      ],
+      "keyframesSample": [
+        "__framer-editorbar-spinner-spin",
+        "sbubble-bg-gqrcg5ms-floatAnim",
+        "sbubble-bg-xx6rt4jz-floatAnim"
+      ],
+      "stickyElements": [
+        "div.framer-1jovxp0 (sticky)",
+        "div.framer-6iivn7-container (fixed)",
+        "iframe#__framer-editorbar.status_hidden (fixed)"
+      ],
+      "videos": [
+        {
+          "src": "https://framerusercontent.com/assets/9S35Z8IlcVaSCBVTyFiSieCj0.mp4",
+          "autoplay": false,
+          "loop": true,
+          "muted": true
+        },
+        {
+          "src": "https://framerusercontent.com/assets/9S35Z8IlcVaSCBVTyFiSieCj0.mp4",
+          "autoplay": false,
+          "loop": true,
+          "muted": true
+        }
+      ],
+      "canvases": 0
+    },
+    "story": {
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Stop data incidents before they hit production",
+          "top": 212
+        },
+        {
+          "tag": "h2",
+          "text": "Detection to resolution All automated with AI",
+          "top": 1395
+        },
+        {
+          "tag": "h3",
+          "text": "Business and Engineers in one workflow",
+          "top": 1826
+        },
+        {
+          "tag": "h3",
+          "text": "Fix bad data at source",
+          "top": 1826
+        },
+        {
+          "tag": "h3",
+          "text": "Best AI for data quality",
+          "top": 2313
+        },
+        {
+          "tag": "h1",
+          "text": "Introducing Soda 4.0",
+          "top": 2561
+        },
+        {
+          "tag": "h2",
+          "text": "Advanced AI for data quality faster and accurate",
+          "top": 3015
+        },
+        {
+          "tag": "h2",
+          "text": "Monitor Thousands of Tables In Seconds",
+          "top": 4090
+        },
+        {
+          "tag": "h2",
+          "text": "Business & Engineering in a Shared Workflow",
+          "top": 5193
+        },
+        {
+          "tag": "h2",
+          "text": "Isolate, manage and fix bad data. In your environment",
+          "top": 6189
+        },
+        {
+          "tag": "h2",
+          "text": "Trusted by the world\u2019s leading enterprises",
+          "top": 7145
+        },
+        {
+          "tag": "h2",
+          "text": "Works with the tools your team already uses",
+          "top": 8824
+        }
+      ],
+      "sections": [],
+      "designSystem": {
+        "bodyFont": "sans-serif",
+        "bodyColor": "rgb(0, 0, 0)",
+        "bgColor": "rgb(255, 255, 255)",
+        "h1Font": "Inter, \"Inter Placeholder\", sans-serif",
+        "h1Size": "72px",
+        "h1Weight": "600",
+        "btnBg": "rgb(18, 226, 157)",
+        "btnColor": "rgb(0, 0, 238)",
+        "btnRadius": "64px"
+      }
+    },
+    "scroll_records": [
+      {
+        "step": 0,
+        "y": 0,
+        "filename": "soda_home_scroll_00_0px.png",
+        "visibleHeadings": [
+          "Stop data incidents before they hit production"
+        ],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      },
+      {
+        "step": 1,
+        "y": 800,
+        "filename": "soda_home_scroll_01_800px.png",
+        "visibleHeadings": [
+          "Detection to resolution All automated with AI"
+        ],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      },
+      {
+        "step": 2,
+        "y": 1600,
+        "filename": "soda_home_scroll_02_1600px.png",
+        "visibleHeadings": [
+          "Business and Engineers in one workflow",
+          "Fix bad data at source",
+          "Best AI for data quality"
+        ],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      },
+      {
+        "step": 3,
+        "y": 2400,
+        "filename": "soda_home_scroll_03_2400px.png",
+        "visibleHeadings": [
+          "Introducing Soda 4.0",
+          "Advanced AI for data quality faster and accurate"
+        ],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      },
+      {
+        "step": 4,
+        "y": 3200,
+        "filename": "soda_home_scroll_04_3200px.png",
+        "visibleHeadings": [],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      },
+      {
+        "step": 5,
+        "y": 4000,
+        "filename": "soda_home_scroll_05_4000px.png",
+        "visibleHeadings": [],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      },
+      {
+        "step": 6,
+        "y": 4800,
+        "filename": "soda_home_scroll_06_4800px.png",
+        "visibleHeadings": [
+          "Business & Engineering in a Shared Workflow"
+        ],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      },
+      {
+        "step": 7,
+        "y": 5600,
+        "filename": "soda_home_scroll_07_5600px.png",
+        "visibleHeadings": [
+          "Isolate, manage and fix bad data. In your environment"
+        ],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      },
+      {
+        "step": 8,
+        "y": 6400,
+        "filename": "soda_home_scroll_08_6400px.png",
+        "visibleHeadings": [
+          "Trusted by the world\u2019s leading enterprises"
+        ],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      },
+      {
+        "step": 9,
+        "y": 7200,
+        "filename": "soda_home_scroll_09_7200px.png",
+        "visibleHeadings": [],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      },
+      {
+        "step": 10,
+        "y": 8000,
+        "filename": "soda_home_scroll_10_8000px.png",
+        "visibleHeadings": [
+          "Works with the tools your team already uses"
+        ],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      },
+      {
+        "step": 11,
+        "y": 8800,
+        "filename": "soda_home_scroll_11_8800px.png",
+        "visibleHeadings": [],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      },
+      {
+        "step": 12,
+        "y": 9600,
+        "filename": "soda_home_scroll_12_9600px.png",
+        "visibleHeadings": [],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      },
+      {
+        "step": 13,
+        "y": 10400,
+        "filename": "soda_home_scroll_13_10400px.png",
+        "visibleHeadings": [],
+        "activeAnimatedElements": [
+          "div.framer-om854a",
+          "div.framer-8l358t",
+          "div.framer-5hhfj5",
+          "div.framer-1ajjrzj",
+          "div.framer-o78ptz"
+        ]
+      }
+    ],
+    "platform": {
+      "tech": {
+        "title": "Soda Data Quality",
+        "url": "https://soda.io/",
+        "scrollHeight": 10666,
+        "viewportHeight": 804,
+        "viewportWidth": 1422,
+        "libs": {
+          "gsap": false,
+          "ScrollTrigger": false,
+          "framerMotion": true,
+          "lenis": false,
+          "locomotive": false,
+          "lottie": false,
+          "three": false,
+          "webflow": false,
+          "nextjs": false,
+          "react": false,
+          "intersectionObserver": true
+        },
+        "scriptsSample": [
+          "https://scripts.clarity.ms/0.8.79-beta/clarity.js",
+          "https://www.redditstatic.com/ads/pixel.js",
+          "https://www.googletagmanager.com/gtag/js?id=G-WF94EGT4KK&cx=c&gtm=4e6bh1",
+          "https://cdn.snitcher.com/releases/latest/radar.min.js",
+          "https://www.clarity.ms/tag/ywmh35oz92",
+          "https://bzrcdn.openai.com/sdk/oaiq.min.js",
+          "https://cdneu.net/app.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-N6X5GD8",
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+          "https://app.lemlist.com/api/visitors/tracking?k=qNgiOXZMSOIvWYh9BjMMkaP1fZYSQ9gQeA%2FMAomix0E%3D&t=tea_QMeDEAfwcaZCn5DWL",
+          "https://static.hotjar.com/c/hotjar-2692050.js?sv=6",
+          "https://learn.soda.io/insight/insight.js",
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/710164644/?random=1795070867283&cv=11&fst=1795070867283&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6bh1v870363772za20ozb813189051zd813189051xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~119381663~120213116~120385423~120469145~120469153~121246026~121246034~123322203&u_w=800&u_h=600&url=https%3A%2F%2Fsoda.io%2F&rcb=1&frm=0&tiba=Soda%20Data%20Quality&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1783676715.1795070838&uaa=x86&uab=64&uafvl=Not-A.Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B157.0.8103.79%7CChromium%3B157.0.8103.79&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+          "https://events.framer.com/script?v=2",
+          "https://framerusercontent.com/sites/4YpeGymneLVFK3i0Q8rOjh/script_main.BSLVg8Ha.mjs"
+        ],
+        "keyframesSample": [
+          "__framer-editorbar-spinner-spin",
+          "sbubble-bg-wns0ey2m-floatAnim",
+          "sbubble-bg-l64fmti9-floatAnim"
+        ],
+        "stickyElements": [
+          "div.framer-1jovxp0 (sticky)",
+          "div.framer-6iivn7-container (fixed)",
+          "iframe#__framer-editorbar.status_hidden (fixed)"
+        ],
+        "videos": [
+          {
+            "src": "https://framerusercontent.com/assets/9S35Z8IlcVaSCBVTyFiSieCj0.mp4",
+            "autoplay": false,
+            "loop": true,
+            "muted": true
+          },
+          {
+            "src": "https://framerusercontent.com/assets/9S35Z8IlcVaSCBVTyFiSieCj0.mp4",
+            "autoplay": false,
+            "loop": true,
+            "muted": true
+          }
+        ],
+        "canvases": 0
+      },
+      "story": {
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Stop data incidents before they hit production",
+            "top": 212
+          },
+          {
+            "tag": "h2",
+            "text": "Detection to resolution All automated with AI",
+            "top": 1395
+          },
+          {
+            "tag": "h3",
+            "text": "Business and Engineers in one workflow",
+            "top": 1826
+          },
+          {
+            "tag": "h3",
+            "text": "Fix bad data at source",
+            "top": 1826
+          },
+          {
+            "tag": "h3",
+            "text": "Best AI for data quality",
+            "top": 2313
+          },
+          {
+            "tag": "h1",
+            "text": "Introducing Soda 4.0",
+            "top": 2561
+          },
+          {
+            "tag": "h2",
+            "text": "Advanced AI for data quality faster and accurate",
+            "top": 3015
+          },
+          {
+            "tag": "h2",
+            "text": "Monitor Thousands of Tables In Seconds",
+            "top": 4090
+          },
+          {
+            "tag": "h2",
+            "text": "Business & Engineering in a Shared Workflow",
+            "top": 5193
+          },
+          {
+            "tag": "h2",
+            "text": "Isolate, manage and fix bad data. In your environment",
+            "top": 6189
+          },
+          {
+            "tag": "h2",
+            "text": "Trusted by the world\u2019s leading enterprises",
+            "top": 7145
+          },
+          {
+            "tag": "h2",
+            "text": "Works with the tools your team already uses",
+            "top": 8824
+          }
+        ],
+        "sections": [],
+        "designSystem": {
+          "bodyFont": "sans-serif",
+          "bodyColor": "rgb(0, 0, 0)",
+          "bgColor": "rgb(255, 255, 255)",
+          "h1Font": "Inter, \"Inter Placeholder\", sans-serif",
+          "h1Size": "72px",
+          "h1Weight": "600",
+          "btnBg": "rgb(18, 226, 157)",
+          "btnColor": "rgb(0, 0, 238)",
+          "btnRadius": "64px"
+        }
+      }
+    },
+    "product": {
+      "story": {
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Page not found",
+            "top": 370
+          }
+        ],
+        "sections": [],
+        "designSystem": {
+          "bodyFont": "\"Inter Variable UI\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+          "bodyColor": "rgb(153, 153, 153)",
+          "bgColor": "rgb(17, 17, 17)",
+          "h1Font": "\"Inter Variable UI\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+          "h1Size": "12px",
+          "h1Weight": "550",
+          "btnBg": "",
+          "btnColor": "",
+          "btnRadius": ""
+        }
+      }
+    }
+  },
+  "montecarlo": {
+    "tech": {
+      "title": "Monte Carlo | The Agent Trust Platform For Data + AI Observability",
+      "url": "https://montecarlo.ai/",
+      "scrollHeight": 6426,
+      "viewportHeight": 804,
+      "viewportWidth": 1422,
+      "libs": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "framerMotion": true,
+        "lenis": false,
+        "locomotive": false,
+        "lottie": false,
+        "three": false,
+        "webflow": false,
+        "nextjs": false,
+        "react": false,
+        "intersectionObserver": true
+      },
+      "scriptsSample": [
+        "https://montecarlo.ai/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://montecarlo.ai/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://js.qualified.com/qualified.js?token=jZczq5n4ttznd5f1",
+        "https://montecarlo.ai/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
+      ],
+      "keyframesSample": [
+        "mcStageCardFadeIn",
+        "mc-scroll-drip",
+        "msb-flash",
+        "msb-shake",
+        "msb-swing",
+        "msb-tada",
+        "msb-heartbeat",
+        "msb-wobble",
+        "aslAnFadeInDrop",
+        "aslAnFadeInDrop",
+        "aslAnFadeOutDrop",
+        "aslAnFadeOutDrop",
+        "rotate-simple",
+        "rotate-simple",
+        "skeleton-pulse",
+        "scroll-logos",
+        "scroll",
+        "spin",
+        "ping",
+        "pulse"
+      ],
+      "stickyElements": [
+        "div.lg:hidden fixed inset-0 bg-gradient-midnight z-40  (fixed)",
+        "div.mc-hero-sticky (sticky)"
+      ],
+      "videos": [],
+      "canvases": 0
+    },
+    "story": {
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Trust your agents in production",
+          "top": 186
+        },
+        {
+          "tag": "h2",
+          "text": "A path to self-improving agents",
+          "top": 2623
+        },
+        {
+          "tag": "h2",
+          "text": "More signal, less noise",
+          "top": 3162
+        },
+        {
+          "tag": "h3",
+          "text": "Support agent is quoting yesterday\u2019s refund amounts",
+          "top": 3627
+        },
+        {
+          "tag": "h2",
+          "text": "Agent trust for the enterprise",
+          "top": 4194
+        },
+        {
+          "tag": "h2",
+          "text": "The ROI of trusted agents",
+          "top": 5014
+        },
+        {
+          "tag": "h2",
+          "text": "Get started fast \u2014scale faster.",
+          "top": 5590
+        },
+        {
+          "tag": "h3",
+          "text": "PLATFORM",
+          "top": 5844
+        },
+        {
+          "tag": "h3",
+          "text": "SOLUTIONS",
+          "top": 5844
+        },
+        {
+          "tag": "h3",
+          "text": "RESOURCES",
+          "top": 5844
+        },
+        {
+          "tag": "h3",
+          "text": "COMPANY",
+          "top": 5844
+        },
+        {
+          "tag": "h3",
+          "text": "TRUST",
+          "top": 5844
+        }
+      ],
+      "sections": [
+        {
+          "index": 1,
+          "tag": "div",
+          "id": "mc-hero-root",
+          "className": "",
+          "top": 0,
+          "height": 1769,
+          "heading": "Trust your agents in production",
+          "snippet": "Trust your agents in production Monte Carlo is the only platform that monitors, troubleshoots, and optimizes your agents and their underlying data at scale. Get a demo Meet Bayes"
+        },
+        {
+          "index": 2,
+          "tag": "div",
+          "id": "mc-body-root",
+          "className": "",
+          "top": 1769,
+          "height": 3701,
+          "heading": "A path to self-improving agents",
+          "snippet": "400+ LEADING ENTERPRISES CHOOSE MONTE CARLO A path to self-improving agents Bayes learns your unique AI and data environment as soon as it\u2019s connected. Then, it runs on a loop based on reinforcement"
+        },
+        {
+          "index": 3,
+          "tag": "section",
+          "id": "",
+          "className": "mc-cta",
+          "top": 5470,
+          "height": 245,
+          "heading": "Get started fast \u2014scale faster.",
+          "snippet": "Get started fast \u2014scale faster. Get a demo"
+        },
+        {
+          "index": 4,
+          "tag": "footer",
+          "id": "",
+          "className": "bg-[#00111d] text-white py-20 relative",
+          "top": 5715,
+          "height": 711,
+          "heading": "PLATFORM",
+          "snippet": "PLATFORM Agent Trust Agents Data Integrations Bayes MCP and Toolkit SOLUTIONS AI Engineers CIOs and CTOs Data Engineers Data + AI Leaders Healthcare and Life Sciences Financial Services Retail and Con"
+        }
+      ],
+      "designSystem": {
+        "bodyFont": "Outfit, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "bodyColor": "rgb(255, 255, 255)",
+        "bgColor": "rgb(0, 17, 29)",
+        "h1Font": "Outfit, system-ui, sans-serif",
+        "h1Size": "78px",
+        "h1Weight": "600",
+        "btnBg": "rgba(0, 0, 0, 0)",
+        "btnColor": "rgb(255, 255, 255)",
+        "btnRadius": "0px"
+      }
+    },
+    "scroll_records": [
+      {
+        "step": 0,
+        "y": 0,
+        "filename": "montecarlo_home_scroll_00_0px.png",
+        "visibleHeadings": [
+          "Trust your agents in production"
+        ],
+        "activeAnimatedElements": [
+          "div.absolute right-0 top-1/2 z-20",
+          "div.absolute right-0 top-1/2 z-20"
+        ]
+      },
+      {
+        "step": 1,
+        "y": 800,
+        "filename": "montecarlo_home_scroll_01_800px.png",
+        "visibleHeadings": [
+          "Trust your agents in production"
+        ],
+        "activeAnimatedElements": [
+          "div.absolute right-0 top-1/2 z-20",
+          "div.absolute right-0 top-1/2 z-20"
+        ]
+      },
+      {
+        "step": 2,
+        "y": 1600,
+        "filename": "montecarlo_home_scroll_02_1600px.png",
+        "visibleHeadings": [
+          "A path to self-improving agents"
+        ],
+        "activeAnimatedElements": [
+          "div.absolute right-0 top-1/2 z-20",
+          "div.absolute right-0 top-1/2 z-20"
+        ]
+      },
+      {
+        "step": 3,
+        "y": 2400,
+        "filename": "montecarlo_home_scroll_03_2400px.png",
+        "visibleHeadings": [
+          "More signal, less noise"
+        ],
+        "activeAnimatedElements": [
+          "div.absolute right-0 top-1/2 z-20",
+          "div.absolute right-0 top-1/2 z-20"
+        ]
+      },
+      {
+        "step": 4,
+        "y": 3200,
+        "filename": "montecarlo_home_scroll_04_3200px.png",
+        "visibleHeadings": [
+          "Support agent is quoting yesterday\u2019s refund amounts",
+          "Agent trust for the enterprise"
+        ],
+        "activeAnimatedElements": [
+          "div.absolute right-0 top-1/2 z-20",
+          "div.absolute right-0 top-1/2 z-20"
+        ]
+      },
+      {
+        "step": 5,
+        "y": 4000,
+        "filename": "montecarlo_home_scroll_05_4000px.png",
+        "visibleHeadings": [
+          "The ROI of trusted agents"
+        ],
+        "activeAnimatedElements": [
+          "div.absolute right-0 top-1/2 z-20",
+          "div.absolute right-0 top-1/2 z-20"
+        ]
+      },
+      {
+        "step": 6,
+        "y": 4800,
+        "filename": "montecarlo_home_scroll_06_4800px.png",
+        "visibleHeadings": [
+          "Get started fast \u2014scale faster.",
+          "PLATFORM",
+          "SOLUTIONS",
+          "RESOURCES",
+          "COMPANY",
+          "TRUST"
+        ],
+        "activeAnimatedElements": [
+          "div.absolute right-0 top-1/2 z-20",
+          "div.absolute right-0 top-1/2 z-20"
+        ]
+      },
+      {
+        "step": 7,
+        "y": 5600,
+        "filename": "montecarlo_home_scroll_07_5600px.png",
+        "visibleHeadings": [
+          "Get started fast \u2014scale faster.",
+          "PLATFORM",
+          "SOLUTIONS",
+          "RESOURCES",
+          "COMPANY",
+          "TRUST"
+        ],
+        "activeAnimatedElements": [
+          "div.absolute right-0 top-1/2 z-20",
+          "div.absolute right-0 top-1/2 z-20"
+        ]
+      },
+      {
+        "step": 8,
+        "y": 6400,
+        "filename": "montecarlo_home_scroll_08_6400px.png",
+        "visibleHeadings": [
+          "Get started fast \u2014scale faster.",
+          "PLATFORM",
+          "SOLUTIONS",
+          "RESOURCES",
+          "COMPANY",
+          "TRUST"
+        ],
+        "activeAnimatedElements": [
+          "div.absolute right-0 top-1/2 z-20",
+          "div.absolute right-0 top-1/2 z-20"
+        ]
+      }
+    ],
+    "platform": {
+      "tech": {
+        "title": "Meet Bayes, Monte Carlo's AI Teammate For Building Agent Trust",
+        "url": "https://montecarlo.ai/bayes",
+        "scrollHeight": 9924,
+        "viewportHeight": 804,
+        "viewportWidth": 1422,
+        "libs": {
+          "gsap": false,
+          "ScrollTrigger": false,
+          "framerMotion": true,
+          "lenis": false,
+          "locomotive": false,
+          "lottie": false,
+          "three": false,
+          "webflow": false,
+          "nextjs": false,
+          "react": false,
+          "intersectionObserver": true
+        },
+        "scriptsSample": [
+          "https://montecarlo.ai/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+          "https://montecarlo.ai/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+          "https://js.qualified.com/qualified.js?token=jZczq5n4ttznd5f1",
+          "https://montecarlo.ai/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
+        ],
+        "keyframesSample": [
+          "msb-flash",
+          "msb-shake",
+          "msb-swing",
+          "msb-tada",
+          "msb-heartbeat",
+          "msb-wobble",
+          "aslAnFadeInDrop",
+          "aslAnFadeInDrop",
+          "aslAnFadeOutDrop",
+          "aslAnFadeOutDrop",
+          "rotate-simple",
+          "rotate-simple",
+          "skeleton-pulse",
+          "scroll-logos",
+          "scroll",
+          "spin",
+          "ping",
+          "pulse",
+          "bounce"
+        ],
+        "stickyElements": [
+          "div.lg:hidden fixed inset-0 bg-gradient-midnight z-40  (fixed)"
+        ],
+        "videos": [],
+        "canvases": 0
+      },
+      "story": {
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Meet Bayes",
+            "top": 408
+          },
+          {
+            "tag": "h2",
+            "text": "AI engineering teams are stretched thin",
+            "top": 935
+          },
+          {
+            "tag": "h2",
+            "text": "One teammate, many talents",
+            "top": 1926
+          },
+          {
+            "tag": "h3",
+            "text": "Onboarding",
+            "top": 2227
+          },
+          {
+            "tag": "h3",
+            "text": "Triage",
+            "top": 2227
+          },
+          {
+            "tag": "h3",
+            "text": "Troubleshooting",
+            "top": 2227
+          },
+          {
+            "tag": "h3",
+            "text": "Remediation",
+            "top": 2490
+          },
+          {
+            "tag": "h3",
+            "text": "Monitor tuning",
+            "top": 2490
+          },
+          {
+            "tag": "h3",
+            "text": "Compliance",
+            "top": 2490
+          },
+          {
+            "tag": "h2",
+            "text": "A path to self-improving agents",
+            "top": 2949
+          },
+          {
+            "tag": "h2",
+            "text": "More signal, less noise",
+            "top": 3952
+          },
+          {
+            "tag": "h2",
+            "text": "Learns your system, earns your trust",
+            "top": 5235
+          },
+          {
+            "tag": "h2",
+            "text": "Works where you work",
+            "top": 5995
+          },
+          {
+            "tag": "h2",
+            "text": "Only Monte Carlo identifies, fixes, and verifies the remediation for failures across both agents and the data that powers them.",
+            "top": 6814
+          },
+          {
+            "tag": "h3",
+            "text": "Built for production",
+            "top": 7115
+          },
+          {
+            "tag": "h3",
+            "text": "Self-improving agents",
+            "top": 7115
+          },
+          {
+            "tag": "h3",
+            "text": "Traced together",
+            "top": 7115
+          },
+          {
+            "tag": "h3",
+            "text": "Platform flexibility",
+            "top": 7115
+          },
+          {
+            "tag": "h2",
+            "text": "How Monte Carlo customers use Bayes to ensure agent trust faster than ever",
+            "top": 8148
+          },
+          {
+            "tag": "h2",
+            "text": "Make the move to agentic data engineering",
+            "top": 8864
+          },
+          {
+            "tag": "h2",
+            "text": "Questions AI teams ask about Bayes",
+            "top": 0
+          },
+          {
+            "tag": "h3",
+            "text": "PLATFORM",
+            "top": 9343
+          },
+          {
+            "tag": "h3",
+            "text": "SOLUTIONS",
+            "top": 9343
+          },
+          {
+            "tag": "h3",
+            "text": "RESOURCES",
+            "top": 9343
+          },
+          {
+            "tag": "h3",
+            "text": "COMPANY",
+            "top": 9343
+          },
+          {
+            "tag": "h3",
+            "text": "TRUST",
+            "top": 9343
+          }
+        ],
+        "sections": [
+          {
+            "index": 2,
+            "tag": "div",
+            "id": "container-block_e00fbacb4806a9e9a8435702cdb32a4e",
+            "className": "mc-container bg-neutral-900",
+            "top": 0,
+            "height": 9214,
+            "heading": "Meet Bayes",
+            "snippet": "Meet Bayes The world\u2019s first AI teammate to deliver self-improving agents alongside the data powering them. See how it works Add Bayes to Slack AI engineering teams are stretched thin Every new depl"
+          },
+          {
+            "index": 3,
+            "tag": "footer",
+            "id": "",
+            "className": "bg-[#00111d] text-white py-20 relative",
+            "top": 9214,
+            "height": 711,
+            "heading": "PLATFORM",
+            "snippet": "PLATFORM Agent Trust Agents Data Integrations Bayes MCP and Toolkit SOLUTIONS AI Engineers CIOs and CTOs Data Engineers Data + AI Leaders Healthcare and Life Sciences Financial Services Retail and Con"
+          }
+        ],
+        "designSystem": {
+          "bodyFont": "Outfit, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "bodyColor": "rgb(0, 0, 0)",
+          "bgColor": "rgb(0, 17, 29)",
+          "h1Font": "Outfit, system-ui, sans-serif",
+          "h1Size": "72px",
+          "h1Weight": "600",
+          "btnBg": "rgba(0, 0, 0, 0)",
+          "btnColor": "rgb(255, 255, 255)",
+          "btnRadius": "0px"
+        }
+      }
+    },
+    "product": {
+      "story": {
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "Mitigate risk and impact of data quality issues at your company.",
+            "top": 803
+          },
+          {
+            "tag": "h3",
+            "text": "Trusted by industry leaders at",
+            "top": 1592
+          },
+          {
+            "tag": "h3",
+            "text": "",
+            "top": 3334
+          },
+          {
+            "tag": "h3",
+            "text": "",
+            "top": 3334
+          },
+          {
+            "tag": "h3",
+            "text": "",
+            "top": 3334
+          },
+          {
+            "tag": "h3",
+            "text": "",
+            "top": 3334
+          },
+          {
+            "tag": "h3",
+            "text": "",
+            "top": 3334
+          }
+        ],
+        "sections": [
+          {
+            "index": 2,
+            "tag": "section",
+            "id": "media-and-text-block_fd2dcf954eb65613ea0e49c421074cfa",
+            "className": "block-media-and-text",
+            "top": 0,
+            "height": 723,
+            "heading": "",
+            "snippet": "Data trust for your company Monte Carlo\u2019s data observability platform uses automated monitoring to ensure your data is reliable at every stage of the data pipeline. Book a Demo"
+          },
+          {
+            "index": 3,
+            "tag": "section",
+            "id": "headline-block_a9722d39231db82d413bef4fd4549ffc",
+            "className": "block-headline",
+            "top": 723,
+            "height": 393,
+            "heading": "Mitigate risk and impact of data quality issues at your company.",
+            "snippet": "Mitigate risk and impact of data quality issues at your company. Data breaks \u2013 call it a fact of life. Poor data quality erodes stakeholder trust, data team resources, and company\u2019s revenue. So, what"
+          },
+          {
+            "index": 4,
+            "tag": "section",
+            "id": "media-and-text-block_80511371588a380b84284d1396e37acf",
+            "className": "block-media-and-text",
+            "top": 1116,
+            "height": 477,
+            "heading": "",
+            "snippet": "Schedule a meeting with your company\u2019s dedicated expert to learn how Monte Carlo can help your company achieve better data quality. Meet An Expert"
+          },
+          {
+            "index": 5,
+            "tag": "div",
+            "id": "",
+            "className": "wp-block-columns alignwide are-vertically-aligned-center is-",
+            "top": 1642,
+            "height": 332,
+            "heading": "",
+            "snippet": ""
+          },
+          {
+            "index": 6,
+            "tag": "section",
+            "id": "testimonial-block-block_e41ec9924d350c0981c5a33b1246e58b",
+            "className": "block-testimonial-block",
+            "top": 2054,
+            "height": 697,
+            "heading": "",
+            "snippet": "What do our customers have to say? \u201cWe wanted something that would effectively get this off the ground and running without us having to put in that effort. The schema, volume, and freshness checks th"
+          },
+          {
+            "index": 7,
+            "tag": "div",
+            "id": "",
+            "className": "wp-block-columns is-layout-flex wp-container-core-columns-is",
+            "top": 2861,
+            "height": 316,
+            "heading": "",
+            "snippet": ""
+          },
+          {
+            "index": 9,
+            "tag": "footer",
+            "id": "",
+            "className": "bg-[#00111d] text-white py-20 relative",
+            "top": 3205,
+            "height": 160,
+            "heading": "",
+            "snippet": ""
+          }
+        ],
+        "designSystem": {
+          "bodyFont": "Outfit, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "bodyColor": "rgb(0, 0, 0)",
+          "bgColor": "rgba(0, 0, 0, 0)",
+          "h1Font": "",
+          "h1Size": "",
+          "h1Weight": "",
+          "btnBg": "rgba(0, 0, 0, 0)",
+          "btnColor": "rgb(255, 255, 255)",
+          "btnRadius": "0px"
+        }
+      }
+    }
+  }
+}

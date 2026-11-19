@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="bg07" cx="50%" cy="30%" r="85%">
+      <stop offset="0%" stop-color="#f8fdfb"/>
+      <stop offset="60%" stop-color="#ecf6f1"/>
+      <stop offset="100%" stop-color="#dbebe1"/>
+    </radialGradient>
+    <filter id="sh07" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#14281e" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg07)"/>
+
+  <g transform="translate(960, 520)" filter="url(#sh07)">
+    <polygon points="0,-120 460,80 0,280 -460,80" fill="#e2ede5" stroke="#b4cdbf" stroke-width="2"/>
+    <polygon points="-460,80 0,280 0,315 -460,115" fill="#8ea698"/>
+    <polygon points="0,280 460,80 460,115 0,315" fill="#a5bfae"/>
+
+    <g transform="translate(0, 40)">
+      <polygon points="0,-140 180,-40 0,60 -180,-40" fill="#ffffff" stroke="#10b981" stroke-width="3"/>
+      <polygon points="-180,-40 0,60 0,200 -180,100" fill="#1b4332"/>
+      <polygon points="0,60 180,-40 180,100 0,200" fill="#2d6a4f"/>
+      <circle cx="0" cy="-40" r="26" fill="#10b981" stroke="#ffffff" stroke-width="3"/>
+      <polyline points="-12,-40 -4,-32 12,-48" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(0, -180)">
+      <polygon points="-60,-40 60,-40 30,20 -30,20" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+      <circle cx="0" cy="-10" r="12" fill="#10b981"/>
+      <line x1="0" y1="20" x2="0" y2="80" stroke="#059669" stroke-width="2" stroke-dasharray="4 4"/>
+    </g>
+
+    <g transform="translate(0, 260)">
+      <polygon points="-50,-10 50,-10 0,50" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+      <circle cx="0" cy="15" r="10" fill="#10b981"/>
+      <line x1="0" y1="-40" x2="0" y2="-10" stroke="#059669" stroke-width="2" stroke-dasharray="4 4"/>
+    </g>
+
+    <g transform="translate(-300, 40)">
+      <polygon points="-40,-50 20,-20 20,40 -40,10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+      <circle cx="-10" cy="-5" r="12" fill="#10b981"/>
+      <line x1="20" y1="-5" x2="100" y2="-5" stroke="#059669" stroke-width="2" stroke-dasharray="4 4"/>
+    </g>
+
+    <g transform="translate(300, 40)">
+      <polygon points="40,-50 -20,-20 -20,40 40,10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+      <circle cx="10" cy="-5" r="12" fill="#8b5cf6"/>
+      <line x1="-20" y1="-5" x2="-100" y2="-5" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4 4"/>
+    </g>
+  </g>
+</svg>
