@@ -17,7 +17,7 @@
 
 ## Platform accounts (create only when ready)
 
-- [ ] GitHub: private repository and collaborators.
+- [ ] GitHub: public repository and collaborators.
 - [ ] Vercel: import the repository, set project root to `frontend`.
 - [ ] Render: connect the repository, use `render.yaml` or set root directory to `backend`.
 - [ ] Supabase: create a project and keep service credentials server-side.

@@ -1,6 +1,6 @@
 # DataFix — Instructions for AI Coding Agents
 
-This repository is a three-person hackathon project. Read this file and `docs/architecture.md` before making changes.
+This repository is a two-person hackathon project. Read this file and `docs/architecture.md` before making changes.
 
 ## Product objective
 

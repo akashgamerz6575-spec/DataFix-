@@ -1,4 +1,4 @@
-# Team Plan — Three-Person Hackathon
+# Team Plan — Two-Person Hackathon
 
 Current confirmed ownership:
 
@@ -13,7 +13,7 @@ Akash is combining the original lead/integration and frontend responsibilities:
 - Own Vercel/Render/Supabase configuration and final end-to-end deployment acceptance.
 - Review backend/frontend integration and coordinate pull requests.
 
-## Backend/data-engine teammate — backend owner
+## Teammate 3 — Backend/data-engine owner
 
 - Own `backend/app/services/`, backend routes and deterministic data-processing tests.
 - Expand profiling to blank-string handling, type/format issues, duplicate analysis and anomalies.
@@ -21,8 +21,6 @@ Akash is combining the original lead/integration and frontend responsibilities:
 - Add validation and export logic.
 - Keep uploaded files temporary unless the team explicitly implements persistent storage.
 - Coordinate request/response contracts with Akash before changing API behaviour.
-
-If a third contributor other than Akash and the backend owner is actively working, ask the team to assign QA, synthetic test data, documentation or demo preparation explicitly. Do not assume ownership.
 
 ## Collaboration rules
 

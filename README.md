@@ -1,54 +1,103 @@
-# DataFix — Team Starter
+# DataFix
 
-A Windows-first monorepo starter for the DataFix hackathon project.
+> **Trustworthy structured-data quality and repair web application.**
+> Detect and diagnose data quality issues, propose safe repairs through a structured safety gate, validate outcomes deterministically, and preserve a complete audit trail.
 
-## Product scope for the first milestone
+**Repository:** [https://github.com/akashgamerz6575-spec/DataFix-.git](https://github.com/akashgamerz6575-spec/DataFix-.git) (Public)
+**Primary Branch:** `main`
 
-The first vertical slice is intentionally small:
+---
 
-1. Start a React web interface.
-2. Start a FastAPI backend.
-3. Check backend health from the UI.
-4. Upload a CSV file.
-5. Return a basic data profile: row/column counts, missing cells, duplicate rows, and per-column summaries.
+## 1. Team & Responsibilities
 
-This is a development scaffold, not the completed hackathon solution. Repair recommendations, repair approval, validation, audit history, XLSX/JSON support, Supabase persistence, and Groq integration are subsequent milestones.
+DataFix is built by two human developers:
 
-## Technology baseline
+- **Akash**: Frontend, architecture, LLM provider adapter, deployment configuration, and cross-module integration.
+- **Teammate 3**: Backend and data engineering, profiling services, deterministic transformation engines, and API endpoints.
 
-- Windows 10/11
-- Node.js 26 LTS
-- Python 3.13.x (use the same minor line for all teammates)
-- React 19 + TypeScript + Vite
-- FastAPI + Pandas
-- GitHub for source control
-- Antigravity as the primary IDE
+---
 
-The package manifest pins the current stable React/Vite toolchain at scaffold creation. Keep `package-lock.json` in Git after the first `npm install` so all teammates use the same dependency tree.
+## 2. Product Objectives & Core Principles
 
-## Prerequisites
+1. **Safety First**: Deterministic Python code owns profiling, validation, and transformations. The LLM suggests and diagnoses repairs; it never mutates data directly.
+2. **Immutable Originals**: The source dataset is never mutated in place. All changes are simulated and applied to an isolated working copy.
+3. **Structured Safety Gate**: Every proposed repair is categorized into one of three distinct lanes:
+   - **Auto-Apply**: Format-only and lossless deduplications that pass all invariants.
+   - **Needs Approval**: Ambiguous transformations, value substitutions, or higher-risk actions requiring explicit human confirmation.
+   - **Refused**: Changes rejected by DataFix because of invariant violations or insufficient evidence to prevent hallucinated data.
+4. **Zero Fabrication Guarantee**: Missing values are never guessed without verifiable domain context, foreign keys, or postal reference tables.
+5. **Cryptographic Audit Trail**: Every applied, skipped, or rejected operation is sequenced, timestamped, and provable via SHA-256 integrity verification.
 
-Install:
+---
 
-- Git for Windows: https://git-scm.com/download/win
-- Node.js 26 LTS: https://nodejs.org/en/download/
-- Python 3.13 (64-bit): https://www.python.org/downloads/windows/
-- Antigravity: use the official installer available to your team
+## 3. Current Implementation Status
 
-During Python installation, enable **Add Python to PATH** if using the standard installer.
+### Implemented (Phase 1 & Phase 1.1)
 
-Verify in PowerShell:
+- **FastAPI Backend (`backend/`):**
+  - `GET /health`: Service health endpoint returning status, service name, and runtime environment.
+  - `POST /api/v1/datasets/profile`: Deterministic Pandas CSV profiling returning dataset row/column counts, total cells, missing cells, duplicate rows, and per-column data types and distinct counts.
+  - Multi-origin CORS support and file size validation (20 MB default limit).
+- **React Frontend (`frontend/`):**
+  - **Design System**: Comprehensive design tokens (`tokens.css`) for typography, spacing, semantic colors, and surfaces.
+  - **Application Shell**: Shared shell with `TopBar`, `StageRail` (6-stage workflow navigation), and `SafetyRibbon` featuring a visual proportional distribution bar.
+  - **Intake Screen (`IntakePage.tsx`)**: Drag-and-drop CSV upload, demo dataset one-click loader, and live waking-server cold-start detection.
+  - **Overview Screen (`OverviewPage.tsx`)**: Dataset health KPIs, column profiling grid, and detected issues summary.
+  - **Repair Studio (`StudioPage.tsx`)**: Three-panel layout with a three-lane proposal queue (Auto-apply, Needs approval, Refused), detailed proposal inspector, refusal evidence gap cards, and side-by-side cell diff comparisons.
+  - **Proof Screen (`ProofPage.tsx`)**: Deterministic verification summary, invariant status checks, and SHA-256 cryptographic seal generator.
+  - **History Screen (`HistoryPage.tsx`)**: Chronological audit trail with sequencer, decision origins, affected cell metrics, and operation rollback simulation.
+  - **Export Screen (`ExportPage.tsx`)**: Clean data export preview and compliance audit receipt download.
+  - **State & Routing**: `RunContext` with `localStorage` persistence, URL-synchronized routing, and seamless live API vs development fixture toggling.
+
+### Planned Functionality (Phase 2 & Future Milestones)
+
+- **Backend Repair Plan Endpoints (GAPs 1–10 Contract):**
+  - `POST /api/v1/runs/{id}/proposals`: Structured repair proposal generation via rules and heuristics.
+  - `POST /api/v1/runs/{id}/simulate`: Deterministic repair simulation, cell-level diff generation, and invariant verification.
+  - `POST /api/v1/runs/{id}/apply` & `POST /api/v1/runs/{id}/undo`: Deterministic state application and rollbacks.
+  - `POST /api/v1/runs/{id}/verify`: Cryptographic verification and tamper-evident audit receipt.
+  - `GET /api/v1/runs/{id}/export`: CSV/Excel export of the repaired dataset.
+  - Full API specifications for these endpoints are defined in [docs/FRONTEND_BACKEND_CONTRACT.md](docs/FRONTEND_BACKEND_CONTRACT.md).
+- **Model Integration & Persistence:**
+  - Server-side Groq LLM integration with structured JSON schema outputs (all model calls routed strictly through the backend).
+  - Supabase persistence for runs, datasets, and immutable audit logs.
+  - Excel (`.xlsx`) and JSON data format parsers.
+
+---
+
+## 4. Technology Baseline
+
+- **Operating System:** Windows 10/11 (cross-platform compatible)
+- **Node.js:** Node.js 20+ LTS
+- **Python:** Python 3.13.x (64-bit)
+- **Frontend Stack:** React 19 + TypeScript + Vite
+- **Backend Stack:** FastAPI + Uvicorn + Pandas + Pydantic v2
+- **Source Control:** GitHub (Public repository: `https://github.com/akashgamerz6575-spec/DataFix-.git`)
+- **Primary IDE:** Antigravity
+
+---
+
+## 5. Local Development Setup
+
+### Prerequisites
+
+Verify toolchains in PowerShell:
 
 ```powershell
 git --version
 node --version
 npm --version
-py -3.13 --version
+python --version
 ```
 
-## Local setup
+### 1. Clone Repository
 
-### 1. Backend terminal
+```powershell
+git clone https://github.com/akashgamerz6575-spec/DataFix-.git
+cd DataFix-
+```
+
+### 2. Backend Setup
 
 From the repository root:
 
@@ -62,21 +111,13 @@ Copy-Item .env.example .env
 uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-If PowerShell blocks activation for the current terminal, run:
+Verify backend in your browser:
+- Health check: [http://127.0.0.1:8000/health](http://127.0.0.1:8000/health)
+- Interactive API Docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
-```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\.venv\Scripts\Activate.ps1
-```
+### 3. Frontend Setup
 
-Check:
-
-- API health: http://127.0.0.1:8000/health
-- API docs: http://127.0.0.1:8000/docs
-
-### 2. Frontend terminal
-
-Open a second PowerShell terminal from the repository root:
+Open a second terminal from the repository root:
 
 ```powershell
 cd frontend
@@ -85,64 +126,59 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite (normally http://localhost:5173).
+Open the local application URL (normally [http://localhost:5173](http://localhost:5173)).
 
-### 3. First end-to-end check
+---
 
-1. Confirm the UI reports that the API is online.
-2. Upload a small `.csv` file.
-3. Confirm that a profile is returned.
-4. Try a CSV with blank cells and repeated rows.
-5. Confirm that the missing-cell and duplicate-row counts change as expected.
+## 6. End-to-End Verification Check
 
-A small synthetic test CSV is included in `sample_data/`.
+1. Confirm the UI shows the backend server is **online** (`GET /health`).
+2. Navigate to **Intake** and click **Load synthetic benchmark dataset** or upload `sample_data/customers_demo.csv`.
+3. Verify that the **Overview** page displays the real profiling results returned by FastAPI:
+   - Row count: 5
+   - Column count: 6
+   - Missing cells: 3
+   - Duplicate rows: 1
+4. Inspect the **Repair Studio** to explore the safety gate, proposal inspector, and refusal explanations.
 
-## Environment variables
+---
 
-- `backend/.env`: backend settings and future server-side API credentials.
-- `frontend/.env`: browser-safe Vite variables only.
+## 7. Environment Variables & Security Rules
 
-Never put `GROQ_API_KEY`, Supabase service-role keys, database passwords, or other secrets in `frontend/.env`, React source code, Git, screenshots, or public issue comments.
+- `backend/.env`: Backend runtime configuration and server-side API keys.
+- `frontend/.env`: Browser-safe Vite variables (`VITE_API_BASE_URL`).
 
-## GitHub setup
+### Strict Security Rules:
+- Never expose `GROQ_API_KEY`, Supabase service-role keys, or database passwords in `frontend/.env`, React code, Git, or logs.
+- All `.env` files are strictly ignored by `.gitignore`. Keep `.env.example` committed with documentation and empty placeholders only.
+- Only synthetic test data is allowed in `sample_data/`.
 
-1. One teammate creates a new **private** GitHub repository named `datafix`.
-2. Extract this starter folder and initialise Git from its root:
+---
 
-   ```powershell
-   git init
-   git add .
-   git commit -m "chore: initialise DataFix monorepo"
-   git branch -M main
-   git remote add origin https://github.com/<TEAM-OWNER>/datafix.git
-   git push -u origin main
-   ```
+## 8. Collaboration & Branching Workflow
 
-3. Add the other two teammates as collaborators.
-4. Keep `main` deployable. Use feature branches and pull requests rather than all three committing directly to `main`.
-5. Commit `frontend/package-lock.json` after the first successful `npm install`.
+- `main` remains deployable at all times.
+- Both teammates create short-lived feature branches: `feat/<feature-name>`.
+- Changes are merged via GitHub Pull Requests after code review and type checks pass.
+- Do not rewrite Git history or use `git push --force` on `main`.
 
-## Deployment direction
+---
 
-- Vercel project root: `frontend`
-- Render service root: `backend`
-- Render build command: `pip install -r requirements.txt`
-- Render start command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-- Configure `CORS_ORIGINS` on Render with the exact Vercel production URL.
-- Configure `VITE_API_BASE_URL` in Vercel with the Render backend URL.
-- Supabase and Groq credentials belong only in Render environment variables.
+## 9. Deployment Architecture
 
-Deployment provider quotas and free-tier terms can change. Verify current limits in each dashboard before relying on a free plan for the final demo. Render free services may cold-start after inactivity; the UI therefore does not disable uploads just because the first health check is offline. Allow the first API request to wake the backend.
+- **Frontend Hosting:** Vercel (Root directory: `frontend`, Build command: `npm run build`, Output: `dist`).
+- **Backend Hosting:** Render (Configured via root `render.yaml` blueprint).
+- **Environment Links:**
+  - Vercel `VITE_API_BASE_URL` points to the Render backend service URL.
+  - Render `CORS_ORIGINS` includes the production Vercel URL.
 
-## First milestone acceptance checklist
+---
 
-- [ ] All three teammates can clone the repository.
-- [ ] Backend starts on each Windows machine.
-- [ ] Frontend starts on each Windows machine.
-- [ ] UI can reach `/health`.
-- [ ] CSV upload and profile endpoint work.
-- [ ] Empty or malformed CSV returns a clear error.
-- [ ] `.env` files are ignored by Git.
-- [ ] A pull request from a feature branch can be reviewed and merged.
+## 10. Documentation Index
 
-See `docs/` for architecture, roles, and workflow.
+- `AGENTS.md`: Non-negotiable engineering rules and operational constraints.
+- `docs/architecture.md`: System architecture and data flow.
+- `docs/FRONTEND_DESIGN_SPEC.md`: Authoritative design specification.
+- `docs/FRONTEND_BACKEND_CONTRACT.md`: GAPs 1–10 request/response API contracts for Phase 2 backend implementation.
+- `docs/PHASE_1_1_ACCEPTANCE_REPORT.md`: Comprehensive Phase 1.1 acceptance audit with screenshots.
+- `docs/GITHUB_INITIAL_PUSH_REPORT.md`: Initial publication and security verification report.
